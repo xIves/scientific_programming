@@ -73,3 +73,9 @@ for the challenge.
     Download Link: https://www.docker.com/products/docker-desktop
 
 7.) Install the Docker extension in Visual Studio Code
+
+8.) Create a Kaggle account and get the kaggle API key
+    On your local computer, in your user directory, create a folder .kaggle
+    e.g. C:\Users\your_username\.kaggle
+    Inside the .kaggle you must have a kaggle.json with your user name an API key
+    (for details see: https://www.youtube.com/watch?v=DgGFhQmfxHo)

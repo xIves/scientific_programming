@@ -29,5 +29,6 @@ pylint
 lxml
 reportlab
 flickrapi
+Pyarrow
 
 
