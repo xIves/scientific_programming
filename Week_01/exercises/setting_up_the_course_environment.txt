@@ -7,23 +7,24 @@
 #--------------------------------------
 
 On your computer, create the following folder structure for the course.
-The course material provided on Moodle for each week should be copied to these folders.
-Use the 'exercises' folders for the exercises and the 'challenge' folders for the challenge.
+The course material provided on Moodle for each week should be copied to these 
+folders. Use the 'exercises' folder for the exercises and the 'challenge' folder 
+for the challenge.
 
 |--scientific_programming
-  |--week_01
+  |--Week_01
     |--exercises
     |--challenge
-  |--week_02
+  |--Week_02
     |--exercises
     |--challenge
   ...
   ...
   ...
-  |--week_13
+  |--Week_13
     |--exercises
     |--challenge
-  |--week_14
+  |--Week_14
     |--exercises
     |--challenge
   
