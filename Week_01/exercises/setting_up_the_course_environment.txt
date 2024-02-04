@@ -34,11 +34,11 @@ for the challenge.
 
 1.) Install the latest Anaconda version
     Download-Link:  https://www.anaconda.com/products/individual
-    Make sure that Anaconda is specified in your path under user variables
+    Under Windows: make sure that Anaconda is specified in your path
     e.g. on Windows: C:\Users\your_username\Anaconda3\Scripts
     See also: https://youtu.be/z84UIZy_qgE
 	
-2.) Install the latest version of Visual Studio Code and look at the introductional Video-Tutorials
+2.) Install the latest version of Visual Studio Code
     Download-Link: https://code.visualstudio.com/download
     Video-Tutorials: Visual Studio Code -> Menu -> Help -> Video-Tutorials
     Make sure that Visual Studio Code is specified in your path under user variables
@@ -53,9 +53,9 @@ for the challenge.
     In Visual Studio Code, go to your weekly working directory and open a new Terminal window
     In the Terminal window, type the following:
 
-    conda info --envs                        # shows all available conda environments
-    conda create -n spenv python=3.10        # creates a new conda environment 'spenv' with Python 3.10
-    conda activate spenv                     # activates the new conda environment 'spenv'
+    conda info --envs                     # shows all available conda environments
+    conda create -n spenv python=3.10     # creates a new conda environment 'spenv' with Python 3.10
+    conda activate spenv                  # activates the new conda environment 'spenv'
     
     Use pip to install the required packages in your activated conda environmemt
     For this, cd into your week_01 -> exercises folder
