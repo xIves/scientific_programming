@@ -1,0 +1,19 @@
+In Visual Studio Code with the Python extension installed:
+
+1.) Create a Jupyter notebook file with Visual Studio Code.
+
+2.) The Jupyter notebook must include:
+
+- a header (markdown cell)
+- a numpy array of random numbers
+- a calculation of quartiles of the random numbers (use the percentile() method from the numpy library)
+- a histogram based on the numpy array
+- a boxplot based on the numpy array
+
+3.) Use the Color Theme 'Night Owl (No Italics)' in Visual Studio Code.
+
+4.) Save the Jupyter notebook as .ipynb file and open it with the Google Chrome extension 'Jupyter Notebook Viewer'.
+
+5.) Export the Jupyter notebook as HTML-File (check whether the library 'jupyter_contrib_nbextensions' is installed) 
+
+For help, see: https://code.visualstudio.com/docs/datascience/jupyter-notebooks

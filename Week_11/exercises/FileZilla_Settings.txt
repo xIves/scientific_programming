@@ -1,0 +1,28 @@
+#-----------------------------------------------------------------------------------------------
+# Settings to connect to EC2 instance via SFTP using FileZilla
+#-----------------------------------------------------------------------------------------------
+
+Download Filezilla (macOS or Windows) and install it on your local computer.
+
+Open FileZilla and follow the following steps:
+
+Step (1): Menu -> Edit -> Settings -> Connection -> SFTP -> Click "Add key file"
+
+Step (2): Browse to the location of your .pem file on your local computer and select it.
+
+Step (3): Menu -> File > Site Manager -> New site with the following parameters:
+
+Step (4): Protocol: SFTP - SSH File Transfer Protocoll
+
+          Host: Your public DNS name of your EC2 instance, or the public IP address of the server (see instance details on AWS)
+   
+          Port: leave empty
+
+          Logon Type: Normal
+
+          User: ubuntu
+
+          Password: leave empty
+
+Step (5): Press Connect Button to connect
+

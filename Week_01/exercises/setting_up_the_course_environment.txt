@@ -1,0 +1,74 @@
+#-----------------------------------------------------------------------------
+# Setting up the course environment
+#-----------------------------------------------------------------------------
+
+#--------------------------------------
+# Weekly working directories
+#--------------------------------------
+
+On your computer, create the following folder structure for the course.
+The course material provided on Moodle for each week should be copied to these folders.
+Use the 'exercises' folders for the exercises and the 'challenge' folders for the challenge.
+
+|--scientific_programming
+  |--week_01
+    |--exercises
+    |--challenge
+  |--week_02
+    |--exercises
+    |--challenge
+  ...
+  ...
+  ...
+  |--week_13
+    |--exercises
+    |--challenge
+  |--week_14
+    |--exercises
+    |--challenge
+  
+#--------------------------------------
+# Installations & Accounts
+#--------------------------------------
+
+1.) Install the latest Anaconda version
+    Download-Link:  https://www.anaconda.com/products/individual
+    Make sure that Anaconda is specified in your path under user variables
+    e.g. on Windows: C:\Users\your_username\Anaconda3\Scripts
+    See also: https://youtu.be/z84UIZy_qgE
+	
+2.) Install the latest version of Visual Studio Code and look at the introductional Video-Tutorials
+    Download-Link: https://code.visualstudio.com/download
+    Video-Tutorials: Visual Studio Code -> Menu -> Help -> Video-Tutorials
+    Make sure that Visual Studio Code is specified in your path under user variables
+    e.g. on Windows: C:\Users\your_username\AppData\Local\Programs\Microsoft VS Code\bin
+    See also: https://youtu.be/z84UIZy_qgE
+
+3.) Install the Python extension in Visual Studio Code
+    See: https://code.visualstudio.com/docs/getstarted/introvideos
+    Video Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Extensions
+
+4.) Create a new conda environment and install the required Python libraries
+    In Visual Studio Code, go to your weekly working directory and open a new Terminal window
+    In the Terminal window, type the following:
+
+    conda info --envs                        # shows all available conda environments
+    conda create -n spenv python=3.10        # creates a new conda environment 'spenv' with Python 3.10
+    conda activate spenv                     # activates the new conda environment 'spenv'
+    
+    Use pip to install the required packages in your activated conda environmemt
+    For this, cd into your week_01 -> exercises folder
+    Be sure that the requirements.txt file from Moodle is available in that folder
+    Be also sure that 'spenv' is activated
+    To istall the required Python packages listed in 'requirements.txt', type:
+    pip install -r requirements.txt
+
+5.) Install Git and create a GitHub Account
+    Git download-link: https://git-scm.com/downloads
+    GitHub Homepage: https://github.com
+    Video-Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Version Control
+
+6.) Install Docker Desktop (macOS users: consider the installation for 'Apple Chip' or 'Intel Chip')
+    Download Link: https://www.docker.com/products/docker-desktop
+
+7.) Install the Docker extension in Visual Studio Code

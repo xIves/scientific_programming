@@ -1,0 +1,19 @@
+#----------------------------------------------------------------------
+# Data types and built-in data structures in Python
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'data_types_and_built-in_data_structures_Python.ipynb' 
+    step by step and try to understand what the Python code does. Also read the 
+	explanations related to data types and built-in data structures.
+	
+2.) Create own examples examples of the following data types:
+    - str
+	- int
+	- float
+	
+3.) Create own examples examples of the following built-in data structures:
+    - list
+	- tuple
+	- dictionary
+	- set
+	

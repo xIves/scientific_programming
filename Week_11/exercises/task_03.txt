@@ -1,0 +1,108 @@
+#----------------------------------------------------------------------
+# Setting up an EC2 instance and schedule a Python script
+#----------------------------------------------------------------------
+
+1.) Install Git and FileZilla on your computer
+    Download Git: https://git-scm.com/downloads
+    Download FileZilla: https://www.chip.de/downloads/FileZilla_13011076.html
+
+2.) Follow the instructions below to set up an Amazon Elastic Compute Cloud (EC2)
+    instance with Python. Note that in the statements below, 
+    <<path_to_your_working_folder>> must be the path to your working directory
+    on your local computer and <<ubuntu@ecX-X-XX-XXX-XXX.eu-central-1.compute.amazonaws.com>> 
+    is the Public IPv4 DNS which is shown on AWS for your EC2 instance (see slides).
+
+3.) Access your EC2 instance to show the data using the Jupyter notebook:
+    'ssh_ec2_instance_Jupyter_notebook_Python.ipynb'.
+
+#-------------------------------------------------------------------------------
+# Setting up an EC2 instance and schedule a Python script
+#-------------------------------------------------------------------------------
+
+# Step (1) Create an AWS account on https://aws.amazon.com
+  # Notice that this requires a credit card, although we will use
+  # free tier service (for details see: https://aws.amazon.com/free) 
+
+# Step (2) Create a new Linux instance on Aamzon EC2
+  # a) on AWS go to Services -> Compute -> EC2
+  # b) in the left menu, go to Instances -> then Launch instances
+    # Under 'Name and tags'
+      -> give the instance a name like 'data_collector'
+    # Under 'Application and OS Images (Amazon Machine Image)'
+      -> Choose Ubuntu
+      -> Ubuntu Server 22.04 LTS ... Free tier eligible
+    # Under 'Instance type'
+      -> Choose t2.micro
+    # Under 'Key pair (login)'
+      -> Choose 'Create new key pair'
+      -> Create a new key pair, give it a name, e.g. 'sp_FS2023.pem' and save the .pem - file on your local computer
+    # Under 'Network settings'
+      -> Choose default settings
+    # Under 'Configure storage'
+     -> Choose default settings
+    # Under 'Advanced details'
+     -> Choose default settings
+  
+# Step (3) Ubuntu: actualize packages
+  # Open your Git Bash locally and set the rights to the .pem file by typing:
+  chmod 400 path_to_your_working_folder/exercises/sp_FS2023.pem
+  # ssh to 
+  ssh -i path_to_your_working_folder/sp_FS2023.pem ubuntu@ecX-X-XX-XXX-XXX.eu-central-1.compute.amazonaws.com
+  # Update Ubuntu
+  sudo apt-get update -y
+  sudo apt-get upgrade -y
+  # If question occur: 'Which services should be restarted?'
+  # --> Press ENTER
+
+# Step (4) Check pre-installed Python version and install required packages
+  # In Git Bash type
+  python3 
+  # To leave Python type
+  exit()
+  # Install pip
+  sudo apt install python3-pip
+  # Install additional Python libraries (if required)
+
+# Step (5) Create new folder 'data' to store the data
+  # First, set rights
+  sudo chmod 700 /home/ubuntu
+  # Second, create new folder 
+  cd /home/ubuntu
+  mkdir data
+  # As a result, you should check, if the new folder exists
+  ls
+  # -> home/ubuntu/data
+  # Close connection to server
+  exit
+
+# Step (6) Copy file 'data_collector.py' to server
+chmod 400 path_to_your_working_folder/sp_FS2023.pem
+scp -i path_to_your_working_folder/sp_FS2023.pem path_to_your_working_folder/data_collector.py ubuntu@ecX-X-XX-XXX-XXX.eu-central-1.compute.amazonaws.com:/home/ubuntu/data
+
+# Step (7) Set time zone of the server
+  # check the current timezone
+  timedatectl
+  # Check available time zones (leave with q)
+  # set time zone
+  sudo timedatectl set-timezone Europe/Zurich
+  timedatectl
+
+# Step (8) Schedule the Python script using cron
+  # Check if cron package is installed
+  dpkg -l cron
+  # If cron is not installed, install the cron package on Ubuntu
+  # apt-get install cron
+  # Verify if cron service is running
+  systemctl status cron
+  # Configure cron job on ubuntu by typing
+  crontab -e
+  # Choose nano as the editor
+  /bin/nano
+  # Add additional line (don't forget one empty space at the beginning of the line) and save the file
+   * * * * * python3 /home/ubuntu/data/data_collector.py
+  
+  # To stop scheduling the Python script
+  crontab -e
+  # -> uncommend the line above and save it
+
+# More infos about cron here: https://www.geeksforgeeks.org/how-to-setup-cron-jobs-in-ubuntu/

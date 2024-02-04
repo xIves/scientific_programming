@@ -1,0 +1,20 @@
+#----------------------------------------------------------------------
+# OOP examples with Python: Agent-based modeling
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'agent_based_model_OOP_example_Python.ipynb' step 
+    by step and try to understand what the Python code does.
+
+3.) In this agent-based model example, we have three different classes:
+
+    - State class
+    - MyAgent class
+    - InfectionModel class
+
+    Look at how inheritance is used, for example how the MyAgent class inherits
+    from the Agent class of the mesa library or how the InfectionModel class
+    inherits from the Model class of the mesa library. Look at how the MultiGrid 
+    class is used to define a grid space in which agents move.
+
+2.) Change the model parameters to run your own agent-based model. Look at how 
+    the results of the simulation change depending on the parameter settings.

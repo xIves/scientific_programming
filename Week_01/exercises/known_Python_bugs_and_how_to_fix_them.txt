@@ -1,0 +1,23 @@
+#---------------------------------------------------------------------
+# Known Python bugs and how to fix it (state: 2023-02-19)
+#---------------------------------------------------------------------
+
+# Error message:
+AttributeError: module 'brotli' has no attribute 'error'
+
+#---------------------------------------------------------------------
+# Fixing the error
+#---------------------------------------------------------------------
+
+# First, deactivate your activated conda environment
+conda deactivate
+
+# Then, open the following file in your conda environment (user = your user name, spenv = your conda environment) ...
+C:\Users\user\Anaconda3\envs\spenv\Lib\site-packages\urllib3\response.py
+
+# Look for the following lines and comment it out:
+if brotli is not None:
+    DECODER_ERROR_CLASSES += (brotli.error,)
+
+# Finally, reinstall the Python library brotli
+pip install brotli
