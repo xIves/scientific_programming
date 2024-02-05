@@ -11,7 +11,7 @@
 #-------------------------------------------------------------------------------
 
 # Go to the folder with your docker-compose.yml file, this should look like
-week_03
+Week_03
   |--challenge
   |--exercises
     |--Docker_Compose_Jupyter_Datascience_Notebook
@@ -42,13 +42,13 @@ docker ps -a
 # In the Jupyter notebook ...
 #-------------------------------------------------------------------------------
 
-# Drag and drop the two files to your Jupyter Lab environment
+# Upload the two files to your Jupyter Lab environment
 - apartments_data_prepared.csv
 - apartments_data_kt_zuerich.ipynb
 
 # Run the Jupyter notebook 'apartments_data_kt_zuerich.ipynb'
 
-# To stop the Jupyter notebook server, type in your Terminal widow
+# To stop the Jupyter notebook server, type in your Terminal window
 CTRL+C
 
 #-------------------------------------------------------------------------------

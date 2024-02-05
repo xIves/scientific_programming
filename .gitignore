@@ -114,3 +114,4 @@ celerybeat-schedule
 
 # Jupyter kernelspec files
 .jupyter/
+
