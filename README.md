@@ -47,6 +47,8 @@ for the challenge.
 
 ## Installations
 
+The following is a guide for installations on a local computer (Windows, macOS).  
+
 1. Install the latest Anaconda version  
     Download-Link:  https://www.anaconda.com/products/individual  
     Under Windows: make sure that Anaconda is specified in your path  
@@ -60,7 +62,7 @@ for the challenge.
     e.g. on Windows: C:\Users\your_username\AppData\Local\Programs\Microsoft VS Code\bin  
     See also: https://youtu.be/z84UIZy_qgE  
 
-3. Install the Python extension in Visual Studio Code  
+3. Install the 'Python' and 'Jupyter' extension in Visual Studio Code  
     See: https://code.visualstudio.com/docs/getstarted/introvideos  
     Video Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Extensions  
 
@@ -105,31 +107,3 @@ for the challenge.
 * Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
 * Configure Display Language -> change to 'en' (English)
 * Under Settings -> set path to conda environment ('spenv')
-
-
-## Known bugs
-
-Error message:  
-AttributeError: module 'brotli' has no attribute 'error'  
-
-Fixing the error:  
-
- ```bash
-conda deactivate
- ```
-
-Then, open the following file in your conda environment (user = your user name, spenv = your conda environment) ...  
-C:\Users\user\Anaconda3\envs\spenv\Lib\site-packages\urllib3\response.py  
-
-Look for the following lines and comment it out:  
-
-```bash
-if brotli is not None:
-    DECODER_ERROR_CLASSES += (brotli.error,)
-```
-
-Finally, reinstall the Python library brotli  
-
-```bash
-pip install brotli
-```
