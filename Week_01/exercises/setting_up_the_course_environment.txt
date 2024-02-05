@@ -58,10 +58,11 @@ for the challenge.
     conda activate spenv                  # activates the new conda environment 'spenv'
     
     Use pip to install the required packages in your activated conda environmemt
-    For this, cd into your week_01 -> exercises folder
-    Be sure that the requirements.txt file from Moodle is available in that folder
+    For this, cd into the folder containing the file requirements.txt from Moodle
+    Be sure that the requirements.txt file is available in that folder
     Be also sure that 'spenv' is activated
     To istall the required Python packages listed in 'requirements.txt', type:
+
     pip install -r requirements.txt
 
 5.) Install Git and create a GitHub Account
@@ -75,7 +76,7 @@ for the challenge.
 7.) Install the Docker extension in Visual Studio Code
 
 8.) Create a Kaggle account and get the kaggle API key
-    On your local computer, in your user directory, create a folder .kaggle
+    On your local computer, create a folder .kaggle
     e.g. C:\Users\your_username\.kaggle
-    Inside the .kaggle you must have a kaggle.json with your user name an API key
+    Inside the .kaggle folder, create a file kaggle.json with your user name an API key
     (for details see: https://www.youtube.com/watch?v=DgGFhQmfxHo)
