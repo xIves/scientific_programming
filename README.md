@@ -21,10 +21,9 @@ necessary knowledge that allows them to apply Python in practice.
 
 ## Working directories
 
-On your computer, create the following folder structure for the course.  
-The course material provided on Moodle for each week should be copied to these   
-folders. Use the 'exercises' folder for the exercises and the 'challenge' folder  
-for the challenge.
+Create the following folder structure for the course. The course material provided  
+on Moodle for each week should be copied to these folders. Use the 'exercises' folder  
+for the exercises and the 'challenge' folder for the challenge.
 
 ```plaintext
 |--scientific_programming
