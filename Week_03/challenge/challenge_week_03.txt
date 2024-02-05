@@ -26,8 +26,3 @@ Tasks (use Visual Studio Code to run the Docker container):
     You can use arbitrary data, for examples see: https://www.tutorialspoint.com/r/
 
 5.) Save the resulting plots as separate .png Files on you local computer
-    
-
-
-
-    

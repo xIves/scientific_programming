@@ -10,7 +10,7 @@
 # Create a new folder 'QRCode_generator' in your working direktory
 #---------------------------------------------------------------------
 
-e.g. week_03
+e.g. Week_03
        |--challenge
        |--exercises
          |--QRCode_generator
@@ -69,9 +69,5 @@ exit
 # Show the container-id of 'mysnapshot'
 docker ps -a
 
-# Copy the .png-File to the local directory (bf09fb3b64c = example container-id of 'mysnapshot')
-docker cp f47c4aa4afd6:QRCode_test.png C:/Users/gell/Desktop/QRCode_test.png
-
-(change 'C:/Users/gell/Desktop/QRCode_test.png' to your local path to save the file)
-
-
+# Copy the .png-File to the current directory (bf09fb3b64c = example container-id of 'mysnapshot')
+docker cp f47c4aa4afd6:QRCode_test.png QRCode_test.png
