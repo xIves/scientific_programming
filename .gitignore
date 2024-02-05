@@ -1,0 +1,116 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+__init__.pyc
+__pycache__
+
+# Virtual Environment
+venv/
+venv3/
+__env__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Visual Studio Code specific files
+.vscode/
+
+# IDE specific files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log files
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package Files
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+
+# PyInstaller
+build/
+dist/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Django Secret Key
+*.secret_key
+
+# Database
+*.sqlite3
+
+# Environment variables
+.env
+
+# .vscode workspace file
+.vscode/settings.json
+
+# .vscode launch configuration
+.vscode/launch.json
+
+# Jupyter kernelspec files
+.jupyter/
