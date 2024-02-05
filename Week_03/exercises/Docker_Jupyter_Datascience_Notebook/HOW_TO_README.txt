@@ -31,14 +31,14 @@ docker ps -a
 # To pull a specific docker image from Docker Hub and run the container type:
 docker run -it --rm -p 8888:8888 jupyter/datascience-notebook
 
-# To access the container, open url in a web browser (replace 'token=...' by the token shown in your Terminal window)
+# To access the container, open url in a web browser (replace 'token=...' by the token shown in your VS Code Terminal)
 http://127.0.0.1:8888/?token=...
 
 #-------------------------------------------------------------------------------
 # In the Jupyter notebook ...
 #-------------------------------------------------------------------------------
 
-# Drag and drop the two files to your Jupyter Lab environment
+# In JupyterLab upload the two files to your Jupyter Lab environment
 - apartments_data_prepared.csv
 - apartments_data_kt_zuerich.ipynb
 
@@ -48,8 +48,9 @@ http://127.0.0.1:8888/?token=...
 CTRL+C
 
 #-------------------------------------------------------------------------------
-# In Docker Desktop ...
+# In VS Code ...
 #-------------------------------------------------------------------------------
 
 # Stop all running containers
-# Right menu -> Containers -> check all containers -> pause button -> delete button
+# Docker menu -> CONTAINERS -> right click -> Stop
+# Docker menu -> IMAGES -> right click -> Remove

@@ -35,14 +35,14 @@ docker ps
 # To show the running and stopped Docker containers, in the Terminal Window type:
 docker ps -a
 
-# To access the Jupyter notebook, open the following url in a web browser
+# To access JupyterLab, open the following url in a web browser
 # http://127.0.0.1:8888
 
 #-------------------------------------------------------------------------------
 # In the Jupyter notebook ...
 #-------------------------------------------------------------------------------
 
-# Upload the two files to your Jupyter Lab environment
+# In JupyterLab, upload the two files
 - apartments_data_prepared.csv
 - apartments_data_kt_zuerich.ipynb
 
