@@ -26,7 +26,7 @@ var04 = 1956
 var05 = '220,000'
 
 formatted_time = datetime.now().strftime("%Y/%m/%d, %H:%M:%S")
-full_name = "Busy-ZHAW-student"
+full_name = "busy-ZHAW-student"
 address_parts = ["Theaterstrasse 17", "Winterthur, 8400"]
 img = Image(logo, 3*inch, 2.5*inch)
 Story.append(img)
@@ -46,7 +46,7 @@ for part in address_parts:
 Story.append(Spacer(1, 24))
 
 # Content
-ptext = 'Dear %s' % full_name.split()[0].strip()
+ptext = 'Dear %s' % full_name.split()[0].strip() + ','
 Story.append(Paragraph(ptext, styles["Normal"]))
 Story.append(Spacer(1, 12))
 ptext = f'''Did you know, that the <b><font color="blue">{var01}</font></b> was a series 
@@ -68,7 +68,7 @@ Story.append(Paragraph(ptext, styles["Justify"]))
 Story.append(Spacer(1, 24))
 ptext = 'Sincerely,'
 Story.append(Paragraph(ptext, styles["Normal"]))
-Story.append(Spacer(1, 48))
+Story.append(Spacer(1, 24))
 ptext = 'Your lecturer'
 Story.append(Paragraph(ptext, styles["Normal"]))
 Story.append(Spacer(1, 12))
