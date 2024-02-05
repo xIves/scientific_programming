@@ -7,7 +7,6 @@
   - [Working directories](#working-directories)
   - [Installations](#installations)
   - [Settings in VS Code](#settings-in-vs-code)
-  - [Known bugs](#known-bugs)
 
 ## Module description
 
