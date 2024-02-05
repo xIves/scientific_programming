@@ -31,8 +31,8 @@ docker ps -a
 # To pull a specific docker image from Docker Hub and run the container type:
 docker run -it --rm -p 8888:8888 jupyter/datascience-notebook
 
-# To access the container, open url in a web browser (replace 'token=...' by the token shown in your VS Code Terminal)
-http://127.0.0.1:8888/?token=...
+# To access the container, click on the link in the VS Code terminal (token=... contains the access token)
+ http://127.0.0.1:8888/lab?token=...
 
 #-------------------------------------------------------------------------------
 # In the Jupyter notebook ...
