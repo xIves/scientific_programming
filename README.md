@@ -103,6 +103,7 @@ The following is a guide for installations on a local computer (Windows, macOS).
     (for details see: https://www.youtube.com/watch?v=DgGFhQmfxHo)
 
 ## Settings in VS Code
+
 * Python: Select Interpreter -> select your conda environment ('spenv')
 * Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
 * Configure Display Language -> change to 'en' (English)
