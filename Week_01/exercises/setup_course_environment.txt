@@ -1,1 +1,3 @@
+The only task for today:
+
 Follow the instructions in the README file to set up the course environment.
