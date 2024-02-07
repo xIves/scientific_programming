@@ -13,7 +13,7 @@ opencv-python==4.9.0.80
 pytesseract==0.3.10
 nltk==3.8.1
 pillow==10.2.0
-Mesa==2.2.4
+Mesa==1.1.1
 Django==5.0.1
 tensorflow==2.15.0
 dash==2.15.0
@@ -30,3 +30,10 @@ lxml==5.1.0
 reportlab==4.0.9
 flickrapi==2.4.0
 pyarrow==15.0.0
+wordcloud==1.9.3
+requests-html==0.10.0
+ipympl==0.9.3
+agentpy==0.1.5
+bokeh==3.3.4
+paramiko==3.4.0
+flask_wtf==1.2.1

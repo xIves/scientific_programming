@@ -49,13 +49,13 @@ def index():
     bar_plot = base64.b64encode(img.getvalue()).decode()
 
     # Create line chart
-    data = df['temperature'][-10:]
+    data = df['waterlevel'][-10:]
     labels = df['hour'][-10:]
     fig, ax = plt.subplots(figsize=(12, 4))
     ax.plot(labels, data, color="steelblue", marker='o')
     ax.set_xlabel('Time', fontsize=10)
-    ax.set_ylabel('Temperature (Degree Celsius)', fontsize=10)
-    ax.set_title(f'Temperature at {dt}', fontsize=12)
+    ax.set_ylabel('Water level (cm)', fontsize=10)
+    ax.set_title(f'Water level at {dt}', fontsize=12)
     plt.xticks(fontsize=9, rotation=0)
     plt.yticks(fontsize=9)
     ax.grid()

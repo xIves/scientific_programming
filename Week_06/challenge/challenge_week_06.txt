@@ -7,10 +7,8 @@ In Switzerland, data of the public charnging infrastructure for electric vehicle
 are freely available on opendata.swiss and https://map.geo.admin.ch. The Swiss 
 government ask you to provide an analysis based on the most recent data.
 
-1.) Read the data, which are available in a .json format from:
-    """https://map.geo.admin.ch/?lang=de&topic=ech&bgLayer=ch.swisstopo.
-       pixelkarte-farbe&layers=ch.bfe.ladestellen-elektromobilitaet
-    """
+1.) Read the (static) data, which are available in a .json format from:
+    https://opendata.swiss/de/dataset/ladestationen-fuer-elektroautos
 
     See also the map on:
     """https://map.geo.admin.ch/?lang=de&topic=ech&bgLayer=ch.swisstopo.

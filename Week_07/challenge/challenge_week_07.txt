@@ -3,7 +3,7 @@
 #-------------------------------------------------------------------
 
 Background:
-You work for a company that specializes in collecting and preparing RSS feeds 
+You work for a company that specializes in collecting and preparing RSS-feeds 
 from online news papers. Specifically, this involves collecting and processing 
 the latest news and making it available to stock traders for algorithmic trading. 
 You are asked to develop a workflow with Python code and functions using 

@@ -15,7 +15,7 @@ WTForms
 # In Visual Studio Code activate your conda environment
 #------------------------------------------------------------------------------------
 
-CTRL+SHIFT+P  -> Python select Interpreter
+CTRL+SHIFT+P -> Python select Interpreter
 
 #------------------------------------------------------------------------------------
 # Open a Terminal window and navigate to your working folder 

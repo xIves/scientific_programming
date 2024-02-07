@@ -1,20 +1,19 @@
 #----------------------------------------------------------------------
-# OOP examples with Python: Agent-based modeling
+# OOP examples with Python: Reinforcement learning
 #----------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'agent_based_model_OOP_example_Python.ipynb' step 
+1.) Run the Jupyter notebook 'reinforcement_learning.ipynb' step 
     by step and try to understand what the Python code does.
 
-3.) In this agent-based model example, we have three different classes:
+3.) In this agent-based model example, we have two different classes:
 
     - State class
-    - MyAgent class
-    - InfectionModel class
+    - Agent class
 
-    Look at how inheritance is used, for example how the MyAgent class inherits
-    from the Agent class of the mesa library or how the InfectionModel class
-    inherits from the Model class of the mesa library. Look at how the MultiGrid 
-    class is used to define a grid space in which agents move.
+    The core element of this simulation is how agents learn to find the optimal path
+    in a grid environment to earn as much rewards as possible. This is explained in detail here:
+    https://towardsdatascience.com/reinforcement-learning-implement-grid-world-from-scratch-c5963765ebff
+    
 
-2.) Change the model parameters to run your own agent-based model. Look at how 
-    the results of the simulation change depending on the parameter settings.
+2.) Change the model parameters in the Jupyter notebook. Look at how 
+    the results of the model change depending on the parameter settings.

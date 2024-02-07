@@ -10,8 +10,8 @@
     the Amazon SageMaker Jupyter notebook instance.
 
 3.) Run the Jupyter notebook 'convolutional_neural_network_MNIST.ipynb'
-    step by step and try to understand what the Python code does. Although this
-    is not part of the written exam, you should understand the following concepts:
+    step by step. Although this is not part of the written exam, you should 
+    understand the following concepts:
     - classification model
     - train & test samples
     - convolutional neural network (CNN)

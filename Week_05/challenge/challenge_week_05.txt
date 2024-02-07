@@ -5,7 +5,7 @@
 Background:
 A bicycle dealer has collected data about bicycles and bicycle-related products 
 from tutti.ch using the Web Scraper extension for Google Chrome. Before the data 
-can be analysed, it must be brought into the right form. The bicycle dealer 
+can be analysed, it must be brought into the correct form. The bicycle dealer 
 has (unfortunately) no Python programming skills and asked you for help. In 
 detail you are asked to do the following with the raw data.
 

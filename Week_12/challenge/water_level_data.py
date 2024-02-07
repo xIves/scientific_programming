@@ -8,48 +8,41 @@ from bs4 import BeautifulSoup
 # Function
 def hydro_data():
 
-    # Current datetime
-    dt = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    hr = datetime.now().strftime('%H:%M:%S')
-
     try:
+
+        # Current datetime and hour
+        dt = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        hr = datetime.now().strftime('%H:%M:%S')
+
         # Request website with hydrodata
-        url = "https://www.hydrodaten.admin.ch/de/2044.html"
+        url = "https://pegelalarm.at/de/river.php?river=Thur"
         page = requests.get(url)
 
         # HTML-Parser
         soup = BeautifulSoup(page.content, "html.parser")
 
-        # Find statistics about hydrological data
-        table = soup.find('table', {'class': 'table-narrow'})
+        # Extracting the data
+        data = []
+        for row in soup.find_all('tr'):
+            row_data = [cell.get_text(strip=True) for cell in row.find_all('td')]
+            data.append(row_data)
 
-        # Extract data
-        rows = table.find_all('td')
-        html_tags = [str(i) for i in rows]
+        # Define column names
+        columns = ['location', 'river', 'waterlevel_raw', 'drain_raw', 'link']
 
-        # Compile regular expression pattern to match only numeric values
-        pattern = re.compile(r'\d+')
+        # Create a DataFrame
+        df = pd.DataFrame(data, columns=columns)
 
-        # Extract only numeric values from the HTML tags
-        hydro_data = [float(pattern.findall(tag)[0]) for tag in html_tags]
+        # Numerical data 
+        df['waterlevel'] = df['waterlevel_raw'].str.extract(r'([\d.]+)').astype(float)
+        df['drain'] = df['drain_raw'].str.extract(r'([\d.]+)').astype(float)
 
-        # Write to data frame
-        df = pd.DataFrame({ 'datetime': dt,
-                            'hour': hr,
-                            'drain': hydro_data[0],
-                            'waterlevel': hydro_data[1],
-                            'temperature': hydro_data[2]},
-                            index=[0])
+        # Select station and columns
+        df = df.loc[df['location'] == 'Andelfingen'].iloc[:,[0,1,5,6]]
 
-        # Hazard level
-        hl = []
-        if hydro_data[0] < 500: hl = 'GS1'
-        elif hydro_data[0] >= 500 and hydro_data[0] < 700: hl = 'GS2'
-        elif hydro_data[0] >= 700 and hydro_data[0] < 1150: hl = 'GS3'
-        elif hydro_data[0] >= 1150 and hydro_data[0] < 1400: hl = 'GS4'
-        else: hl = 'GS5'
-
-        df['hazard_level'] = hl
+        # Insert datetime and hour
+        df.insert(0, 'datetime', dt)
+        df.insert(1, 'hour', hr)
 
         # Save data to file
         # Path on Windows with filename
@@ -58,8 +51,8 @@ def hydro_data():
         # filename = '/home/ubuntu/data/hydro_data.csv'
 
         # Check if file exists ...
-        if not os.path.isfile(filename):
-            # Create the file
+        if not os.path.isfile('hydro_data.csv'):
+            # Create file
             df.to_csv('hydro_data.csv', 
                     sep=";", 
                     encoding='utf-8',
@@ -73,12 +66,8 @@ def hydro_data():
                     index=False,
                     mode='a')
             
-        # Show data
-        # df
-
     except:
         pass
 
 # Function call
-if __name__ == '__main__':
-    hydro_data()
+hydro_data()

@@ -12,7 +12,7 @@
     change the parameters to create your own population, bootstrap samples and 
     graphical representation of the bootstrapping procedure.
 
-3.) Write a function that reads both .json and .csv files to a pandas data frame 
+4.) Write a function that reads both .json and .csv files to a pandas data frame 
     without the need to specify the .read_csv() or .read_json() method 'by hand'. 
     Hint: The function must first check the file extensions of files in your
     specified directory. If it is a .json file then .read_json() must be used 

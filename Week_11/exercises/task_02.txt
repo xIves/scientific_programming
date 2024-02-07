@@ -1,5 +1,5 @@
 #----------------------------------------------------------------------
-# Collect and analyse charging station data
+# Collect and analyse data from charging stations for electric vehicles
 #----------------------------------------------------------------------
 
 1.) Run the Jupyter notebook 'data_collector.ipynb' on your local computer step 
