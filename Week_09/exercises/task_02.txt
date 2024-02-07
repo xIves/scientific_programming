@@ -2,8 +2,7 @@
 # Agent-based modeling: Money Agents Model
 #----------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'agent_based_modeling_money_agents.ipynb'
-    step by step and try to understand, what the Python code does.
+1.) Run the Jupyter notebook 'agent_based_modeling_money_agents.ipynb' step by step.
 
 2.) The Gini coefficient measures the extent to which the distribution of income 
     or consumption among individuals or households within an economy deviates 

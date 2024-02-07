@@ -2,8 +2,7 @@
 # Conditional statements, loops & loop control statements
 #----------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'conditional_statements_loops_Python.ipynb'
-    step by step and try to understand what the Python code does.
+1.) Run the Jupyter notebook 'conditional_statements_loops_Python.ipynb' step by step.
 
 2.) In the Jupyter notebook section 'Practical examples using the cars data set'
     define e new variable with the following price categories:
@@ -19,4 +18,5 @@
     - addr:housenumber
     - addr:postcode
     - addr:street
+
     Note that not all data sets contain address information (see shops.geojson)

@@ -2,8 +2,7 @@
 # autoscout24.ch data
 #----------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'autoscout24_data.ipynb' 
-    step by step and try to understand what the Python code does.
+1.) Run the Jupyter notebook 'autoscout24_data.ipynb' step by step.
 	
 2.) From 'Init_Regist' extract the year of manufacture
     Hint: you can use the following command (note that 'df' is the name of the data frame)

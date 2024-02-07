@@ -2,8 +2,7 @@
 # Simulating the Monty Hall problem with Python
 #----------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'simulation_monty_hall_problem.ipynb'
-    step by step and try to understand what the Python code does.
+1.) Run the Jupyter notebook 'simulation_monty_hall_problem.ipynb' step by step.
 
 2.) In the Jupyter notebook, create a new section 'Proportion of wins in 
     relation to the number of trials'. In this section, create a line chart

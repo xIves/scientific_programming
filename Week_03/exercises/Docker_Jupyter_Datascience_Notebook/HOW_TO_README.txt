@@ -19,7 +19,7 @@
         |--apartments_data_prepared.csv
         |--HOW_TO_README.txt
 
-# To show the available Docker images, in the Terminal Window type:
+# To show the available Docker images, in the Terminal window type:
 docker images
 
 # To show the running Docker container, in the Terminal Window type:

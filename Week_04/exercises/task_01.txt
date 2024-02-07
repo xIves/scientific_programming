@@ -2,8 +2,7 @@
 # Input & Output in Python
 #----------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'input_and_output_Python.ipynb' step by step 
-    and try to understand what the Python code does.
+1.) Run the Jupyter notebook 'input_and_output_Python.ipynb' step by step.
 	
 2.) Create own examples for the following file formats and try to read 
     and write your files using Python:

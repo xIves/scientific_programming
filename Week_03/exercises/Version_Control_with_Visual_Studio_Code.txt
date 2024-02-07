@@ -103,7 +103,7 @@ plt.show()
 #------------------------------------------------------------------
 
 # In Visual Studio Code, make some changes in your histogram.py file
-# --> you could, for example, change the colors of the histogram
+# --> you can, for example, change the colors of the histogram
 # --> save the file
 
 # Before you comit the changes, click on the file name in the Explorer window (under 'Changes')
