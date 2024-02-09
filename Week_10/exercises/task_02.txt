@@ -2,10 +2,10 @@
 # Enhancing performance in Python
 #----------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'enhancing_performance_Python.ipynb' step by step 
-    and try to understand, what the Python code does. You should understand
-    that the performance in Python (read & write data, make calculations) highly 
-    depends on the functions you use, and that this performance can be optimized.
+1.) Run the Jupyter notebook 'enhancing_performance_Python.ipynb' step by step. 
+    You should understand that the performance in Python (read & write data, make 
+    calculations) highly depends on the functions you use, and that this performance 
+    can be optimized.
 
 2.) Simulate a car data set which contains 10 Mio. cars. The data should include:
     - id       # car id (int)

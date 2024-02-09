@@ -2,9 +2,9 @@
 # Vizualizations / Graphics in Python
 #----------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'visualizations_graphics_Python.ipynb' step by step 
-    and try to understand what the Python code does. You should understand which
-    elements a matplotlib graphic contains and how it can be created. This includes:
+1.) Run the Jupyter notebook 'visualizations_graphics_Python.ipynb' step by step. 
+    You should understand which elements a matplotlib graphic contains and how it 
+    can be created. This includes:
     - named colors
     - marker symbols
     - formatting axes and setting limits and ticks

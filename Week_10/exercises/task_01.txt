@@ -3,8 +3,7 @@
 #----------------------------------------------------------------------
 
 1.) Run the Jupyter notebook 'advanced_programming_techniques_Python.ipynb'
-    step by step and try to understand, what the Python code does. You should
-    understand the following functions & concepts:
+    step by step. You should understand the following functions & concepts:
     - lambda
     - map
     - filter

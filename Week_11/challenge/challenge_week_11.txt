@@ -9,7 +9,7 @@ collect the water level data to create a forecast model at a later point in time
 Unfortunately there is no web API.
 
 You choose the following setting to help your friend:
-- collect the water level data by means of a web scraper (Python script) 
+- collect the water level data by means of a web scraper (Python script)
 - use an EC2 instance to run the Python script
 - schedule the Python script to collect the data at an interval of 1 minute
 - store the data in a single .csv file with a time stamp.
