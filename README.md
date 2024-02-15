@@ -136,4 +136,4 @@ On your local computer:
 
 git rm -r --cached <<your_folder>>  
 git commit -m "removed folder your_folder"  
-git push origin 
+git push origin  
