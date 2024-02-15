@@ -2,12 +2,15 @@ Exercise:
 
 1.) Run the Jupyter notebook 'variables_and_data_types.ipynb' step by step.
 
-2.) Create a simulated but realistic data set with 1000 smart phones. 
-    The data set must include the following data types:
+2.) Use ChatGPT/Copilot and the Python library 'faker' to create a simulated but 
+    realistic data set with 1000 smart phones. The data set must include the 
+    following data types:
 
-  - int
-  - object / string
-  - float
-Use Python code to write the data to an Excel-file.
+    - int
+    - str
+    - float
+    - bool
 
-3.) Solve the quiz 'quiz_python_variables_and_data_types.ipynb'
+  Use Python code to write the data to an Excel-file.
+
+3.) Solve the quiz 'quiz_python_variables_and_data_types.ipynb'.
