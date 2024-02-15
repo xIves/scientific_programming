@@ -20,9 +20,8 @@ necessary knowledge that allows them to apply Python in practice.
 
 ## Working directories
 
-Create the following folder structure for the course. The course material provided  
-on Moodle for each week should be copied to these folders. Use the 'exercises' folder  
-for the exercises and the 'challenge' folder for the challenge.
+In the course, we will use the following folder structure. You can find the material on
+Moodle and on GitHub: 
 
 ```plaintext
 |--scientific_programming
@@ -102,7 +101,7 @@ The following is a guide for installations on a local computer (Windows, macOS).
 
 ## Settings in VS Code
 
-The following must be defined in the VS Code Command Palette (CTRL + SHIFT + P)
+The following must be defined using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings
 
 On GitHub Codespaces:  
 * Python: Select Interpreter -> select your interpreter e.g. Python 3.10
