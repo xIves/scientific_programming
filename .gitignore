@@ -36,22 +36,22 @@ dist/
 
 # Single files
 # Week_01/challenge/solution_challenge_week_01.ipynb
-Week_02/solution_challenge_week_01.ipynb
-Week_03/05_graphics.R
-Week_03/rstudio-export.zip
-Week_04/solution_challenge_week_01.ipynb
-Week_05/solution_challenge_week_01.ipynb
-Week_06/solution_challenge_week_01.ipynb
-Week_07/solution_challenge_week_01.ipynb
-Week_08/solution_challenge_week_01.ipynb
-Week_09/solution_challenge_week_01.ipynb
-Week_10/solution_challenge_week_01.ipynb
-Week_11/water_level_data.py
-Week_11/hydro_data.csv
-Week_12/water_level_data.py
-Week_12/hydro_data.csv
-Week_12/index.html
-Week_12/app.py
+Week_02/challenge/solution_challenge_week_01.ipynb
+Week_03/challenge/05_graphics.R
+Week_03/challenge/rstudio-export.zip
+Week_04/challenge/solution_challenge_week_01.ipynb
+Week_05/challenge/solution_challenge_week_01.ipynb
+Week_06/challenge/solution_challenge_week_01.ipynb
+Week_07/challenge/solution_challenge_week_01.ipynb
+Week_08/challenge/solution_challenge_week_01.ipynb
+Week_09/challenge/solution_challenge_week_01.ipynb
+Week_10/challenge/solution_challenge_week_01.ipynb
+Week_11/challenge/water_level_data.py
+Week_11/challenge/hydro_data.csv
+Week_12/challenge/water_level_data.py
+Week_12/challenge/hydro_data.csv
+Week_12/challenge/index.html
+Week_12/challenge/app.py
 Week_13
 Week_14
 
