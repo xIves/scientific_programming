@@ -1,1 +1,0 @@
-To run the model, open a Terminal cd into this directory and type: mesa runserver
