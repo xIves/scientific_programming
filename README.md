@@ -100,7 +100,7 @@ See: https://www.youtube.com/watch?v=rB9v6HoDXYo
     pip install -r requirements.txt
     ```
 
-5. Install Git and crea te a GitHub Account  
+5. Install Git and create a GitHub Account  
     Git download-link: https://git-scm.com/downloads  
     GitHub Homepage: https://github.com  
     Video-Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Version Control  
