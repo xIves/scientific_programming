@@ -35,7 +35,7 @@ dist/
 .jupyter/
 
 # Single files
-Week_01/challenge/solution_challenge_week_01.ipynb
+# Week_01/challenge/solution_challenge_week_01.ipynb
 Week_02/solution_challenge_week_01.ipynb
 Week_03/05_graphics.R
 Week_03/rstudio-export.zip

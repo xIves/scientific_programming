@@ -7,6 +7,7 @@
   - [Working directories](#working-directories)
   - [Installations](#installations)
   - [Settings in VS Code](#settings-in-vs-code)
+  - [Useful Git commands](#useful-git-commands)
 
 ## Module description
 
@@ -19,6 +20,8 @@ paradigms. Due to the application-oriented nature of the module, students acquir
 necessary knowledge that allows them to apply Python in practice.
 
 ## Working directories
+
+**NOTICE:** Please note that the weekly material will always be available shortly before the course starts.
 
 In the course, we will use the following folder structure. You can find the material on
 Moodle and on GitHub: https://github.com/mario-gellrich-zhaw/scientific_programming.git
@@ -44,7 +47,19 @@ Moodle and on GitHub: https://github.com/mario-gellrich-zhaw/scientific_programm
 
 ## Installations
 
-The following is a guide for installations on a local computer (Windows, macOS).  
+**The following is a guide for installations using GitHub Codespaces.**
+
+Go to https://github.com/mario-gellrich-zhaw/scientific_programming.git
+
+Fork the GitHub repository into your own GitHub account to create a personal  
+copy that you can modify and experiment with independently of the original project.  
+
+Create a new codespace on GitHub. Everything should be set up as needed.  
+
+See: https://www.youtube.com/watch?v=rB9v6HoDXYo
+
+
+**The following is a guide for installations on a local computer (Windows, macOS).**
 
 1. Install the latest Anaconda version  
     Download-Link:  https://www.anaconda.com/products/individual  
@@ -114,3 +129,9 @@ On your local computer:
 * Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
 * Configure Display Language -> change to 'en' (English)
 * Under Settings -> set path to conda environment ('spenv')
+
+## Useful Git commands
+
+git rm -r --cached <<your_folder>>  
+git commit -m "removed folder your_folder"  
+git push origin  
