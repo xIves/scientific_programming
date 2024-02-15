@@ -47,7 +47,7 @@ Moodle and on GitHub: https://github.com/mario-gellrich-zhaw/scientific_programm
 
 ## Installations
 
-**The following is a guide for installations using GitHub Codespaces.**
+**Installations using GitHub Codespaces**
 
 Go to https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
@@ -61,7 +61,7 @@ Everything should be automatically set up as needed.
 See: https://www.youtube.com/watch?v=rB9v6HoDXYo
 
 
-**The following is a guide for installations on a local computer (Windows, macOS).**
+**Installations on a local computer (Windows, macOS)**
 
 1. Install the latest Anaconda version  
     Download-Link:  https://www.anaconda.com/products/individual  
