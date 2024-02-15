@@ -23,8 +23,8 @@ necessary knowledge that allows them to apply Python in practice.
 
 **NOTICE:** Please note that the weekly material will always be available shortly before the course starts.
 
-In the course, we will use the following folder structure. You can find the material on
-Moodle and on GitHub: https://github.com/mario-gellrich-zhaw/scientific_programming.git
+In the course, we will use the following folder structure. The material will continously provided on
+Moodle and GitHub: https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 ```plaintext
 |--scientific_programming
