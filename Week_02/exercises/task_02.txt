@@ -1,9 +1,0 @@
-Exercise:
-
-1.) Run the Jupyter notebook 'operators_and_expressions.ipynb' step by step.
-
-2.) Check how much the Bic Mac prices in Switzerland have changed between 2002 and 2022.
-
-3.) Is the Bic Mac price increase between 2002 and 2022 in Switzerland higher compared to the U.S.A.?
-
-4.) Solve the quiz 'quiz_python_operators_and_expressions.ipynb'
