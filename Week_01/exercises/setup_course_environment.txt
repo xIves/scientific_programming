@@ -1,3 +1,5 @@
-The only task for today:
+The task for today:
 
-Follow the instructions in the README.md file to set up the course environment.
+1.) Follow the instructions in the README.md file to set up the course environment.
+
+2.) Solve the challenge in the folder Week_01/challenge''
