@@ -54,7 +54,9 @@ Go to https://github.com/mario-gellrich-zhaw/scientific_programming.git
 Fork the GitHub repository into your own GitHub account to create a personal  
 copy that you can modify and experiment with independently of the original project.  
 
-Create a new codespace on GitHub. Everything should be set up as needed.  
+Based on  the Fork, create a new codespace on GitHub. 
+
+Everything should be automatically set up as needed.
 
 See: https://www.youtube.com/watch?v=rB9v6HoDXYo
 
