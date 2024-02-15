@@ -104,7 +104,14 @@ The following is a guide for installations on a local computer (Windows, macOS).
 
 The following must be defined in the VS Code Command Palette (CTRL + SHIFT + P)
 
-* Python: Select Interpreter -> select your conda environment ('spenv')
+On GitHub Codespaces:  
+* Python: Select Interpreter -> select your interpreter e.g. Python 3.10
+* Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
+* Configure Display Language -> change to 'en' (English)
+* Under Settings -> set path to conda environment ('spenv')
+
+On your local computer:  
+* Python: Select Interpreter -> select your interpreter (e.g. name of the conda environment 'spdev'
 * Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
 * Configure Display Language -> change to 'en' (English)
 * Under Settings -> set path to conda environment ('spenv')
