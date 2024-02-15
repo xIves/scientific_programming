@@ -38,18 +38,22 @@ dist/
 # Jupyter kernelspec files
 .jupyter/
 
-# Single folders
-# Week_01
-# Week_02
-# Week_03
-# Week_04
-# Week_05
-# Week_06
-# Week_07
-# Week_08
-# Week_09
-# Week_10
-# Week_11
-# Week_12
-# Week_13
-# Week_14
+# Single files
+Week_01/challenge/solution_challenge_week_01.ipynb
+Week_02/solution_challenge_week_01.ipynb
+Week_03
+Week_04/solution_challenge_week_01.ipynb
+Week_05/solution_challenge_week_01.ipynb
+Week_06/solution_challenge_week_01.ipynb
+Week_07/solution_challenge_week_01.ipynb
+Week_08/solution_challenge_week_01.ipynb
+Week_09/solution_challenge_week_01.ipynb
+Week_10/solution_challenge_week_01.ipynb
+Week_11/water_level_data.py
+Week_11/hydro_data.csv
+Week_12/water_level_data.py
+Week_12/hydro_data.csv
+Week_12/index.html
+Week_12/app.py
+Week_13
+Week_14
