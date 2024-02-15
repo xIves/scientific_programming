@@ -1,9 +1,5 @@
 # Python
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-__init__.pyc
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -41,7 +37,8 @@ dist/
 # Single files
 Week_01/challenge/solution_challenge_week_01.ipynb
 Week_02/solution_challenge_week_01.ipynb
-Week_03
+Week_03/05_graphics.R
+Week_03/rstudio-export.zip
 Week_04/solution_challenge_week_01.ipynb
 Week_05/solution_challenge_week_01.ipynb
 Week_06/solution_challenge_week_01.ipynb
@@ -55,5 +52,21 @@ Week_12/water_level_data.py
 Week_12/hydro_data.csv
 Week_12/index.html
 Week_12/app.py
+Week_13
+Week_14
+
+# Single folders
+# Week_01
+Week_02
+Week_03
+Week_04
+Week_05
+Week_06
+Week_07
+Week_08
+Week_09
+Week_10
+Week_11
+Week_12
 Week_13
 Week_14
