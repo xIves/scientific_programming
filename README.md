@@ -159,14 +159,15 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 # 2. Clone your fork (creates a copy of the repo on your local computer): ()
 git clone https://github.com/YOUR-USERNAME/YOUR-FORKED-REPO.git
 
-# 3. Add remote from original repository in your forked repository:
+# 3. View the current configured remote repository
 cd into/cloned/fork-repository
 
+git remote -v
+
+# 4. Add remote from original repository in your forked repository:
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
 git fetch upstream
 
-# 4. Updating your fork from original repository
+# 5. Updating your fork from original repository
 git pull upstream master
-
-# Test
 ```
