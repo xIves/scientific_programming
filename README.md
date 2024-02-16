@@ -106,6 +106,11 @@ Moodle (slides) and GitHub: https://github.com/mario-gellrich-zhaw/scientific_pr
 
 **Installations using GitHub Codespaces**
 
+GitHub Codespaces is an instant, cloud-based development environment that uses a container  
+to provide you with common languages, tools, and utilities for development. GitHub Codespaces   
+is also configurable, allowing you to create a customized development environment for your project.  
+
+
 Go to https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 Fork the GitHub repository into your own GitHub account to create a personal  
