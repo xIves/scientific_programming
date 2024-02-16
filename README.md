@@ -7,6 +7,7 @@
   - [Working directories](#working-directories)
   - [Installations](#installations)
   - [Settings in VS Code](#settings-in-vs-code)
+  - [Generate SSH key pair](#generate-ssh-key-pair)
   - [Useful Git commands](#useful-git-commands)
 
 ## Module description
@@ -24,7 +25,7 @@ necessary knowledge that allows them to apply Python in practice.
 **NOTICE:** Please note that the weekly material will always be available shortly before the course starts.
 
 In the course, we will use the following folder structure. The material will continously provided on
-Moodle and GitHub: https://github.com/mario-gellrich-zhaw/scientific_programming.git
+Moodle (slides) and GitHub: https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 ```plaintext
 |--scientific_programming
@@ -132,6 +133,15 @@ On your local computer:
 * Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
 * Configure Display Language -> change to 'en' (English)
 * Under Settings -> set path to conda environment ('spenv')
+
+## Generate SSH key pair
+
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+See: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys  
+
 
 ## Useful Git commands
 
