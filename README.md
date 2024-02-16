@@ -134,6 +134,37 @@ On your local computer:
 
 ## Useful Git commands
 
+**Remove folder from the index, commit and push changes to remote**
+```bash
+# Folder
 git rm -r --cached <<your_folder>>  
-git commit -m "removed folder your_folder"  
-git push origin  
+git commit -m "removed folder_name"  
+git push origin
+
+# File
+cd .. <<file location>>
+git rm --cached <<your_folder>>  
+git commit -m "removed file_name"  
+git push origin
+```
+
+**Fork/Clone a GitHub repository and keep the fork/clone up to date**
+```bash
+# 1.) Navigate to the GitHub page of the repository you want to fork:
+
+https://github.com/mario-gellrich-zhaw/scientific_programming.git
+
+# --> Click on the "Fork" button at the top right of the page.
+
+# 2. Clone your fork (creates a copy of the repo on your local computer): ()
+git clone https://github.com/YOUR-USERNAME/YOUR-FORKED-REPO.git
+
+# 3. Add remote from original repository in your forked repository:
+cd into/cloned/fork-repository
+
+git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
+git fetch upstream
+
+# 4. Updating your fork from original repository
+git pull upstream master
+```
