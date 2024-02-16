@@ -140,7 +140,7 @@ On your local computer:
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-See: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys  
+See: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 
 
 ## Useful Git commands
