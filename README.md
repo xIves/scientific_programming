@@ -127,31 +127,35 @@ On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH ke
 
 See: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 
+You can test your SSH connection with the following command:  
+```bash
+ssh -T git@github.com
+```
 
 ## Useful Git commands
 
 **Fork/Clone a GitHub repository and keep the fork/clone up to date**
 ```bash
-# 1.) Log in to your GitHub account.
-
-# 2.) Navigate to the GitHub page of the 'scientific programming' repository:
+# 1.) Navigate to the GitHub page of the 'scientific programming' repository:
 
 https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 # --> Click on the "Fork" button at the top right of the page.
 
-# 3. Clone your fork (creates a copy of the repo on your local computer):
+# 2. Clone your fork (creates a copy of the repo on your local computer):
 git clone https://github.com/YOUR-USERNAME/YOUR-FORKED-REPO.git
 
-# 4. On your local computer, view the current configured remote repository
+# 3. On your local computer, view the current configured remote repository
 # cd into/cloned/fork-repository
 git remote -v
 
-# 5. Add remote from original repository in your forked repository:
+# 4. Add remote from upstream repository in your forked repository:
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
+
+# 5. Retrieve the latest changes from upstream repository
 git fetch upstream
 
-# 6. Updating your fork from original repository
+# 6. Updating your fork from upstream repository
 git pull upstream master
 ```
 
