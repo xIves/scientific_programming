@@ -132,20 +132,19 @@ See: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/gen
 
 **Fork/Clone a GitHub repository and keep the fork/clone up to date**
 ```bash
-# 1.) Login your GitHub account 
+# 1.) Log in to your GitHub account.
 
-# 2.) Navigate to the GitHub page of the repository you want to fork:
+# 2.) Navigate to the GitHub page of the 'scientific programming' repository:
 
 https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 # --> Click on the "Fork" button at the top right of the page.
 
-# 3. Clone your fork (creates a copy of the repo on your local computer): ()
+# 3. Clone your fork (creates a copy of the repo on your local computer):
 git clone https://github.com/YOUR-USERNAME/YOUR-FORKED-REPO.git
 
-# 4. View the current configured remote repository
-cd into/cloned/fork-repository
-
+# 4. On your local computer, view the current configured remote repository
+# cd into/cloned/fork-repository
 git remote -v
 
 # 5. Add remote from original repository in your forked repository:
