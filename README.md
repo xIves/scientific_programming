@@ -48,7 +48,7 @@ Moodle (slides) and GitHub: https://github.com/mario-gellrich-zhaw/scientific_pr
 
 ## Installations
 
-**Installations on a local computer (Windows, macOS)**
+**Installations on your local computer (Windows, macOS)**
 
 1. Install the latest Anaconda version  
     Download-Link:  https://www.anaconda.com/products/individual  
@@ -87,7 +87,7 @@ Moodle (slides) and GitHub: https://github.com/mario-gellrich-zhaw/scientific_pr
     pip install -r requirements.txt
     ```
 
-5. Install Git and [if not yet done :-)] create a GitHub Account  
+5. Install Git and [if not yet done] create a GitHub Account  
     Git download-link: https://git-scm.com/downloads  
     GitHub Homepage: https://github.com  
     Video-Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Version Control  
@@ -113,7 +113,7 @@ In VS Code Command Palette (CTRL+SHIFT+P):
 * Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
 * Configure Display Language -> change to 'en' (English)
 
-In VS Code, under Settings -> set the path to your conda environment ('spenv')
+In VS Code, under Settings bottom right -> set the path to your conda environment ('spenv')
 
 ## Generate SSH key pair
 
@@ -164,7 +164,7 @@ git commit -m "removed folder_name"
 git push origin
 
 # File
-cd .. <<file location>>
+# cd .. <<file location>>
 git rm --cached <<your_folder>>  
 git commit -m "removed file_name"  
 git push origin
