@@ -77,73 +77,53 @@ Moodle (slides) and GitHub: https://github.com/mario-gellrich-zhaw/scientific_pr
     conda activate spenv                # activates the new conda environment 'spenv'
     ```
 
-    Use pip to install the required packages in your activated conda environmemt  
-    For this, cd into the folder containing the file requirements.txt from Moodle  
-    Be sure that the requirements.txt file is available in that folder  
-    Be also sure that 'spenv' is activated  
-    To istall the required Python packages listed in 'requirements.txt', type:  
+    Use pip to install the required packages in your activated conda environmemt.   
+    For this, cd into the folder containing the file 'requirements.txt' from GitHub.    
+    Make sure that the requirements.txt file is available in that folder.     
+    Make also sure that the conda environment 'spenv' is activated.  
+    To istall the required Python packages listed in 'requirements.txt', type:    
 
     ```bash
     pip install -r requirements.txt
     ```
 
-5. Install Git and create a GitHub Account  
+5. Install Git and [if not yet done :-)] create a GitHub Account  
     Git download-link: https://git-scm.com/downloads  
     GitHub Homepage: https://github.com  
     Video-Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Version Control  
 
 6. Install Docker Desktop (macOS users: consider the installation for 'Apple Chip' or 'Intel Chip')  
-    Download Link: https://www.docker.com/products/docker-desktop  
+   Download Link: https://www.docker.com/products/docker-desktop  
 
 7. Install the Docker extension in Visual Studio Code  
 
 8. Create a Kaggle account and get the kaggle API key  
-    On your local computer, create a folder .kaggle  
-    e.g. C:\Users\your_username\.kaggle  
-    Inside the .kaggle folder, create a file kaggle.json with your user name an API key  
-    (for details see: https://www.youtube.com/watch?v=DgGFhQmfxHo)
-
-
-**Installations using GitHub Codespaces**
-
-GitHub Codespaces is an instant, cloud-based development environment that uses a container  
-to provide you with common languages, tools, and utilities for development. GitHub Codespaces   
-is also configurable, allowing you to create a customized development environment for your project.  
-
-
-Go to https://github.com/mario-gellrich-zhaw/scientific_programming.git
-
-Fork the GitHub repository into your own GitHub account to create a personal  
-copy that you can modify and experiment with independently of the original project.  
-
-Based on  the Fork, create a new codespace on GitHub. 
-
-Everything should be automatically set up as needed.
-
-See: https://www.youtube.com/watch?v=rB9v6HoDXYo
+   On your local computer, create a hidden folder .kaggle  
+   e.g. on Windows: C:\Users\your_username\.kaggle  
+   Inside the .kaggle folder, create a file kaggle.json with your user name and API key  
+   (for details see: https://www.youtube.com/watch?v=DgGFhQmfxHo)  
 
 
 ## Settings in VS Code
 
 The following must be defined using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings
 
-On GitHub Codespaces:  
-* Python: Select Interpreter -> select your interpreter e.g. Python 3.10
-* Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
-* Configure Display Language -> change to 'en' (English)
-* Under Settings -> set path to conda environment ('spenv')
-
-On your local computer:  
+In VS Code Command Palette (CTRL+SHIFT+P):    
 * Python: Select Interpreter -> select your interpreter (e.g. name of the conda environment 'spdev'
 * Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
 * Configure Display Language -> change to 'en' (English)
-* Under Settings -> set path to conda environment ('spenv')
+
+In VS Code, under Settings -> set the path to your conda environment ('spenv')
 
 ## Generate SSH key pair
 
+In VS Code -> Terminal type:
+
 ```bash
+# Email must be the one privided on GitHub
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
+On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> use the public key
 
 See: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 
@@ -152,25 +132,27 @@ See: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/gen
 
 **Fork/Clone a GitHub repository and keep the fork/clone up to date**
 ```bash
-# 1.) Navigate to the GitHub page of the repository you want to fork:
+# 1.) Login your GitHub account 
+
+# 2.) Navigate to the GitHub page of the repository you want to fork:
 
 https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 # --> Click on the "Fork" button at the top right of the page.
 
-# 2. Clone your fork (creates a copy of the repo on your local computer): ()
+# 3. Clone your fork (creates a copy of the repo on your local computer): ()
 git clone https://github.com/YOUR-USERNAME/YOUR-FORKED-REPO.git
 
-# 3. View the current configured remote repository
+# 4. View the current configured remote repository
 cd into/cloned/fork-repository
 
 git remote -v
 
-# 4. Add remote from original repository in your forked repository:
+# 5. Add remote from original repository in your forked repository:
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
 git fetch upstream
 
-# 5. Updating your fork from original repository
+# 6. Updating your fork from original repository
 git pull upstream master
 ```
 
