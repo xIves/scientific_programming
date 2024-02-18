@@ -158,6 +158,10 @@ git pull upstream master
 
 **Remove folder from the index, commit and push changes to remote**
 ```bash
+# Sometimes you must remove already published code from your GitHub repository.
+# The following git commands can be used to remove folders/files from the index, 
+# and commit and push changes to remote.
+
 # Folder
 git rm -r --cached <<your_folder>>  
 git commit -m "removed folder_name"  
