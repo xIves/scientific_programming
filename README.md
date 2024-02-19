@@ -103,7 +103,6 @@ Moodle (slides) and GitHub: https://github.com/mario-gellrich-zhaw/scientific_pr
    Inside the .kaggle folder, create a file kaggle.json with your user name and API key  
    (for details see: https://www.youtube.com/watch?v=DgGFhQmfxHo)  
 
-
 ## Settings in VS Code
 
 The following must be defined using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings
@@ -117,10 +116,12 @@ In VS Code, under Settings bottom right -> set the path to your conda environmen
 
 ## Generate SSH key pair
 
-In VS Code -> Terminal type:
+Note that the following is not required if you use a forked remote repository.  
+
+In VS Code -> Terminal type:   
 
 ```bash
-# Email must be the one privided on GitHub
+# Email must be the one provided on GitHub
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> use the public key
