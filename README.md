@@ -156,7 +156,7 @@ git clone https://github.com/YOUR-USERNAME/YOUR-FORKED-REPO.git
 # cd into/cloned/fork-repository
 git remote -v
 
-# 4. Add remote from upstream repository in your forked repository:
+# 4. Add a new remote repository to your local Git configuration
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 # 5. Retrieve the latest changes from upstream repository
