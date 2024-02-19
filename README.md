@@ -152,6 +152,7 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 git clone https://github.com/YOUR-USERNAME/YOUR-FORKED-REPO.git
 
 # 3. On your local computer, view the current configured remote repository
+# Open VS Code -> Terminal
 # cd into/cloned/fork-repository
 git remote -v
 
