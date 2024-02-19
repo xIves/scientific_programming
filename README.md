@@ -48,7 +48,7 @@ Moodle (slides) and GitHub: https://github.com/mario-gellrich-zhaw/scientific_pr
 
 ## Installations
 
-**Installations on your local computer (Windows, macOS)**
+**Installations (Windows, macOS)**
 
 1. Install the latest Anaconda version  
     Download-Link:  https://www.anaconda.com/products/individual  
@@ -87,7 +87,7 @@ Moodle (slides) and GitHub: https://github.com/mario-gellrich-zhaw/scientific_pr
     pip install -r requirements.txt
     ```
 
-5. Install Git and [if not yet done] create a GitHub Account  
+5. Install Git and [if not yet done :-)] create a GitHub Account  
     Git download-link: https://git-scm.com/downloads  
     GitHub Homepage: https://github.com  
     Video-Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Version Control  
@@ -97,7 +97,10 @@ Moodle (slides) and GitHub: https://github.com/mario-gellrich-zhaw/scientific_pr
 
 7. Install the Docker extension in Visual Studio Code  
 
-8. Create a Kaggle account and get the kaggle API key  
+8. Install the Copilot extension in Visual Studio Code and apply for the [free] GitHub Global campus licence:  
+   https://education.github.com/students
+
+9. Create a Kaggle account and get the kaggle API key  
    On your local computer, create a hidden folder .kaggle  
    e.g. on Windows: C:\Users\your_username\.kaggle  
    Inside the .kaggle folder, create a file kaggle.json with your user name and API key  
@@ -116,7 +119,9 @@ In VS Code, under Settings bottom right -> set the path to your conda environmen
 
 ## Generate SSH key pair
 
-Note that the following is not required if you use a forked remote repository.  
+An SSH key pair is used to establish a secure connection between your local machine and the   
+remote server (like GitHub). Note that an SSH key pair is <u>not</u> required if you use a forked   
+remote repository (like in this course).   
 
 In VS Code -> Terminal type:   
 
