@@ -42,24 +42,24 @@ This module teaches the fundamentals of scientific programming. The focus is on 
 **Installations (Windows, macOS)**
 
 1. Install the latest Anaconda version  
-    Download-Link:  https://www.anaconda.com/products/individual  
-    Under Windows: make sure that Anaconda is specified in your path e.g. on Windows: C:\Users\your_username\Anaconda3\Scripts    
-    See also: https://youtu.be/z84UIZy_qgE  
+   * Download-Link:  https://www.anaconda.com/products/individual  
+   * Under Windows: make sure that Anaconda is specified in your path e.g. on Windows: C:\Users\your_username\Anaconda3\Scripts    
+   * See: https://youtu.be/z84UIZy_qgE  
 	
 2. Install the latest version of Visual Studio Code    
-    Download-Link: https://code.visualstudio.com/download    
-    Video-Tutorials: Visual Studio Code -> Menu -> Help -> Video-Tutorials    
-    Make sure that Visual Studio Code is specified in your path under user variables e.g. on Windows: C:\Users\your_username\AppData\Local\Programs\Microsoft VS Code\bin    
-    See also: https://youtu.be/z84UIZy_qgE  
+   * Download-Link: https://code.visualstudio.com/download    
+   * Video-Tutorials: Visual Studio Code -> Menu -> Help -> Video-Tutorials    
+   * Make sure that Visual Studio Code is specified in your path under user variables e.g. on Windows: C:\Users\your_username\AppData\Local\Programs\Microsoft VS Code\bin    
+   * See also: https://youtu.be/z84UIZy_qgE  
 
 3. Install the 'Python' and 'Jupyter' extension in Visual Studio Code    
-    See: https://code.visualstudio.com/docs/getstarted/introvideos    
-    Video Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Extensions    
+   * See: https://code.visualstudio.com/docs/getstarted/introvideos    
+   * Video Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Extensions    
 
 4. Create a new conda environment and install the required Python libraries      
-    Windows: Open Anaconda Prompt (command line tool which comes with the Anaconda installation)
-    macOS: Open terminal   
-
+   * Windows: Open Anaconda Prompt (command line tool which comes with the Anaconda installation)
+   * macOS: Open terminal  
+   
     Type: 
 
     ```bash
@@ -75,12 +75,12 @@ This module teaches the fundamentals of scientific programming. The focus is on 
     ```
 
 5. Install Git and [if not yet done] create a GitHub Account  
-    Git download-link: https://git-scm.com/downloads  
-    GitHub Homepage: https://github.com  
-    Video-Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Version Control  
+   * Git download-link: https://git-scm.com/downloads  
+   * GitHub Homepage: https://github.com  
+   * Video-Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Version Control  
 
 6. Install Docker Desktop (macOS users: consider the installation for 'Apple Chip' or 'Intel Chip')  
-   Download Link: https://www.docker.com/products/docker-desktop  
+   * Download Link: https://www.docker.com/products/docker-desktop  
 
 7. Install the Docker extension in Visual Studio Code  
 
@@ -117,8 +117,8 @@ In VS Code -> oepn a Terminal, then type:
 ssh-keygen -t ed25519 -C "your-email@example.com"
 ```
 This will generate two files with SSH-Keys on your computer (public & privat keys)   
-Windows-Users look under: C:\Users\your-username\.ssh  
-Mac-Users look under: /Users/your-username/.ssh  
+* Windows-Users look under: C:\Users\your-username\.ssh  
+* Mac-Users look under: /Users/your-username/.ssh  
 
 **Note that .ssh is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the ssh-keys (use Google to find out how)**
 
