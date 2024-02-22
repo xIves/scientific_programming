@@ -116,16 +116,9 @@ This will generate two files with SSH-Keys on your computer (public & privat key
 
 **Note that .ssh is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the ssh-keys (use Google to find out how)**
 
-Permissions for .ssh folder on macOS: https://apple.stackexchange.com/questions/30670/how-do-i-gain-permission-to-generate-ssh-keys-on-my-mac
+If you have the key, go to GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the newly generated public key
 
-On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the newly generated public key
-
-See: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
-
-In VS Code -> Terminal -> you can test your SSH connection with the following command:  
-```bash
-ssh -T git@github.com
-```
+See also: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 
 ## GitHub repository
 The course material is available on GitHub. To make the material available on your local computer and keep it updated, follow the steps below. Note that it is assumed that you have Git installed and a GitHub account.
