@@ -131,10 +131,10 @@ In VS Code -> Terminal type:
 ssh-keygen -t ed25519 -C "your-email@example.com"
 ```
 This will generate an SSH-Key on your computer   
-Windows-Users look under C:\Users\your-username\.ssh
-Mac-Users look under /Users/your-username/.ssh
+Windows-Users look under C:\Users\your-username\.ssh  
+Mac-Users look under /Users/your-username/.ssh  
 
-On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the public key here
+On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the new public key here
 
 See: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 
