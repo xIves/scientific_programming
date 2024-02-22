@@ -101,8 +101,7 @@ In VS Code Command Palette (CTRL+SHIFT+P):
 
 ## Generate SSH key pair
 
-An SSH key pair is used to establish a secure connection between your local computer and the     
-remote server (like GitHub). It is highly recommended to use an SSH-key.  
+An SSH key pair is used to establish a secure connection between your local computer and the remote server (like GitHub). It is highly recommended to use an SSH-key.  
 
 In VS Code -> Terminal type:  
 
@@ -124,9 +123,7 @@ ssh -T git@github.com
 ```
 
 ## GitHub repository
-The course material is available on GitHub. To make the material available on your  
-local computer and keep it updated, follow the steps below. Note that it is assumed
-that you have a GitHub account.
+The course material is available on GitHub. To make the material available on your local computer and keep it updated, follow the steps below. Note that it is assumed that you have a GitHub account.
 
 **Fork/Clone a GitHub repository and keep the fork/clone up to date**
 ```bash
