@@ -130,11 +130,11 @@ In VS Code -> Terminal type:
 # Email must be the one provided on GitHub
 ssh-keygen -t ed25519 -C "your-email@example.com"
 ```
-This will generate an SSH-Key on your computer   
+This will generate two files with SSH-Keys on your computer (public & privat keys)   
 Windows-Users look under C:\Users\your-username\.ssh  
 Mac-Users look under /Users/your-username/.ssh  
 
-On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the new public key here
+On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the new public key here  
 
 See: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 
@@ -147,25 +147,30 @@ ssh -T git@github.com
 
 **Fork/Clone a GitHub repository and keep the fork/clone up to date**
 ```bash
-# 1.) Navigate to the GitHub page of the 'scientific programming' repository:
+# 1.) Navigate to:
 
 https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 # --> Click on the "Fork" button at the top right of the page.
+# --> This will generate a fork (copy) of the repository in your GitHub account.
 
-# 2. Clone your fork (creates a copy of the repo on your local computer):
-git clone https://github.com/YOUR-USERNAME/YOUR-FORKED-REPO.git
+# 2. Use Git to clone your fork (creates a copy of the repo on your local computer):
+git clone https://github.com/YOUR-USERNAME/scientific_programming.git
 
-# 3. Add a new remote repository (name of the upstream) to your local Git configuration
+# 3. In VS Code ... 
+# --> open the folder with the cloned repository
+# --> open a Terminal for the Git commands below
+
+# 4. Provide the information about the upstream repository
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
-# 4. On your local computer, view the current configured remote repositories
+# 5. View the current configured remote repositories
 git remote -v
 
-# 5. Retrieve the latest changes from upstream repository
+# 6. Retrieve the latest changes from upstream repository
 git fetch upstream
 
-# 6. Updating your fork from upstream repository
+# 7. Updating your fork from upstream repository
 git pull upstream master
 ```
 
