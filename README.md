@@ -8,7 +8,7 @@
   - [Installations](#installations)
   - [Settings in VS Code](#settings-in-vs-code)
   - [Generate SSH key pair](#generate-ssh-key-pair)
-  - [Useful Git commands](#useful-git-commands)
+  - [GitHub repository](#github-repository)
 
 ## Module description
 
@@ -79,11 +79,11 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
     conda activate spenv                # activates the new conda environment 'spenv'
     ```
 
-    Use pip to install the required packages in your activated conda environmemt.   
-    For this, cd into the folder containing the file 'requirements.txt' from GitHub.    
-    Make sure that the requirements.txt file is available in that folder.     
+    Use pip to install the required libraries in your activated conda environmemt.   
+    For this, cd into your local folder containing the file 'requirements.txt' provided on GitHub.    
+    Make sure that the requirements.txt file is available in that local folder.     
     Make also sure that the conda environment 'spenv' is activated.  
-    To istall the required Python packages listed in 'requirements.txt', type:    
+    To install the required Python libraries listed in 'requirements.txt', type:    
 
     ```bash
     pip install -r requirements.txt
@@ -113,16 +113,14 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 The following must be defined using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings
 
 In VS Code Command Palette (CTRL+SHIFT+P):    
-* Python: Select Interpreter -> select your interpreter (e.g. name of the conda environment 'spdev'
+* Python: Select Interpreter -> select your interpreter (name of the new conda environment 'spdev'
 * Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
 * Configure Display Language -> change to 'en' (English)
 
-In VS Code, under Settings bottom right -> set the path to your conda environment ('spenv')
-
 ## Generate SSH key pair
 
-An SSH key pair is used to establish a secure connection between your local machine and the   
-remote server (like GitHub). It is highly recommended to use an SSH-key.
+An SSH key pair is used to establish a secure connection between your local computer and the     
+remote server (like GitHub). It is highly recommended to use an SSH-key.  
 
 In VS Code -> Terminal type:  
 
@@ -131,19 +129,21 @@ In VS Code -> Terminal type:
 ssh-keygen -t ed25519 -C "your-email@example.com"
 ```
 This will generate two files with SSH-Keys on your computer (public & privat keys)   
-Windows-Users look under C:\Users\your-username\.ssh  
-Mac-Users look under /Users/your-username/.ssh  
+Windows-Users look under: C:\Users\your-username\.ssh  
+Mac-Users look under: /Users/your-username/.ssh  
 
-On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the new public key here  
+On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the generated public key here  
 
 See: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 
-You can test your SSH connection with the following command:  
+In VS Code -> Terminal -> you can test your SSH connection with the following command:  
 ```bash
 ssh -T git@github.com
 ```
 
-## Git commands
+## GitHub repository
+The course material is available on GitHub. To make the material available on your  
+local computer and keep it updated, follow the steps below.
 
 **Fork/Clone a GitHub repository and keep the fork/clone up to date**
 ```bash
@@ -154,14 +154,16 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 # --> Click on the "Fork" button at the top right of the page.
 # --> This will generate a fork (copy) of the repository in your GitHub account.
 
-# 2. Use Git to clone your fork (creates a copy of the repo on your local computer):
-git clone https://github.com/YOUR-USERNAME/scientific_programming.git
+# 2. Open Git to clone your fork (creates a copy of the repo on your local computer):
+git clone git@github.com:YOUR-USERNAME/scientific_programming.git
+
+# --> Note that this is the SSH URL, not the HTTPS URL!
 
 # 3. In VS Code ... 
 # --> open the folder with the cloned repository
 # --> open a Terminal for the Git commands below
 
-# 4. Provide the information about the upstream repository
+# 4. Provide the information about the upstream repository (= official course repository)
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 # 5. View the current configured remote repositories
@@ -172,22 +174,4 @@ git fetch upstream
 
 # 7. Updating your fork from upstream repository
 git pull upstream master
-```
-
-**Remove folder from the index, commit and push changes to remote**
-```bash
-# Sometimes you must remove already published folders/files from your GitHub repository.
-# The following git commands can be used to remove folders/files from the index, and 
-# commit and push changes to remote.
-
-# Folder
-git rm -r --cached <<folder_name>>
-git commit -m "removed folder_name"
-git push origin
-
-# File
-# cd .. <<file location>>
-git rm --cached <<file_name>>
-git commit -m "removed file_name"
-git push origin
 ```
