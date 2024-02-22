@@ -90,7 +90,7 @@ This module teaches the fundamentals of scientific programming. The focus is on 
 
 ## Settings in VS Code
 
-The following must settings must be made using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings.  
+Make the following settings using the VS Code Command Palette (CTRL+SHIFT+P) and VS Code settings.  
 
 In VS Code Command Palette (CTRL+SHIFT+P):      
 * Python: Select Interpreter -> select your interpreter (name of the new conda environment 'spdev'
@@ -116,7 +116,7 @@ This will generate two files with SSH-Keys on your computer (public & privat key
 
 **Note that .ssh is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the ssh-keys (use Google to find out how)**
 
-If you have the key, go to GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the newly generated public key
+If you have the public ssh-key, go to GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the newly generated public key
 
 See also: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 
