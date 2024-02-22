@@ -91,7 +91,7 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 ## Settings in VS Code
 
-The following must be defined using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings  
+The following must be defined using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings.  
 
 In VS Code Command Palette (CTRL+SHIFT+P):      
 * Python: Select Interpreter -> select your interpreter (name of the new conda environment 'spdev'
