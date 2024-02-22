@@ -57,8 +57,10 @@ This module teaches the fundamentals of scientific programming. The focus is on 
     Video Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Extensions    
 
 4. Create a new conda environment and install the required Python libraries      
-    In Visual Studio Code, go to your weekly working directory and open a new Terminal window      
-    In the Terminal, type the following:      
+    Windows: Open Anaconda Prompt (command line tool which comes with Anaconda)
+    macOS: Open terminal   
+
+    Type: 
 
     ```bash
     conda info --envs                   # shows all available conda environments
@@ -66,7 +68,7 @@ This module teaches the fundamentals of scientific programming. The focus is on 
     conda activate spenv                # activates the new conda environment 'spenv'
     ```
 
-    Use pip to install the required libraries in your activated conda environment. For this, cd into your local folder containing the file 'requirements.txt' provided on GitHub. Make sure that the requirements.txt file is available in that local folder. Make also sure that the conda environment 'spenv' is activated. To install the required Python libraries listed in 'requirements.txt', type: 
+    Copy the 'requirements.txt' from the GitHub repository to a local working folder then cd into that folder. Make sure that the conda environment 'spenv' is activated. To install the required Python libraries listed in 'requirements.txt', type:
 
     ```bash
     pip install -r requirements.txt
@@ -85,7 +87,12 @@ This module teaches the fundamentals of scientific programming. The focus is on 
 8. Install the Copilot extension in Visual Studio Code and apply for the [free] GitHub Global campus licence: https://education.github.com/students.
 
 9. Create a Kaggle account and get the kaggle API key    
-   On your local computer, create a hidden folder .kaggle, e.g. on Windows: C:\Users\your_username\.kaggle. Inside the .kaggle folder, create a file kaggle.json with your user name and API key (for details see: https://www.youtube.com/watch?v=DgGFhQmfxHo).
+   * Windows: Create a [hidden] folder: C:\Users\YOUR-USERNAME\.kaggle. Inside this folder, create a file kaggle.json with your user name and API-key from Kaggle.
+   * macOS: Create a [hidden] folder: /Users/your-username/.kaggle. Inside this folder, create a file kaggle.json with your user name and API-key from Kaggle.
+
+   **Note that .kaggle is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the ssh-keys (use Google to find out how)**
+   
+   API key (for details see: https://www.youtube.com/watch?v=DgGFhQmfxHo).
 
 ## Settings in VS Code
 
