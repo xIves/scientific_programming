@@ -143,7 +143,8 @@ ssh -T git@github.com
 
 ## GitHub repository
 The course material is available on GitHub. To make the material available on your  
-local computer and keep it updated, follow the steps below.
+local computer and keep it updated, follow the steps below. Note that it is assumed
+that you have a GitHub account.
 
 **Fork/Clone a GitHub repository and keep the fork/clone up to date**
 ```bash
