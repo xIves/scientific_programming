@@ -104,6 +104,8 @@ For Windows users, define the path to the conda executable: VS Code -> Settings 
 
 An SSH key pair is used to establish a secure connection between your local computer and the remote server (like GitHub). It is highly recommended to use an SSH-key.  
 
+First, look at this video: https://www.youtube.com/watch?v=snCP3c7wXw0
+
 In VS Code -> open a Terminal, then type:  
 
 ```bash
