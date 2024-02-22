@@ -146,7 +146,7 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 # 2. Open Git to clone your fork (creates a copy of the repo on your local computer):
 git clone git@github.com:YOUR-USERNAME/scientific_programming.git
 
-# --> Note that this is the SSH URL, not the HTTPS URL!
+# --> Note that this is the SSH URL requiring an ssh key, not the HTTPS URL!
 
 # 3. In VS Code ... 
 
