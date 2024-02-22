@@ -57,7 +57,7 @@ This module teaches the fundamentals of scientific programming. The focus is on 
     Video Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Extensions    
 
 4. Create a new conda environment and install the required Python libraries      
-    Windows: Open Anaconda Prompt (command line tool which comes with Anaconda)
+    Windows: Open Anaconda Prompt (command line tool which comes with the Anaconda installation)
     macOS: Open terminal   
 
     Type: 
