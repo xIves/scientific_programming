@@ -113,7 +113,7 @@ This will generate two files with SSH-Keys on your computer (public & privat key
 Windows-Users look under: C:\Users\your-username\.ssh  
 Mac-Users look under: /Users/your-username/.ssh  
 
-**Note that .ssh is a hidden folder, so on Windows and macOS you first make this folder visible to have access to the ssh-keys (use Google to find out how)**
+**Note that .ssh is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the ssh-keys (use Google to find out how)**
 
 On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the newly generated public key
 
