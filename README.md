@@ -150,8 +150,8 @@ git clone git@github.com:YOUR-USERNAME/scientific_programming.git
 
 # 3. In VS Code ... 
 
---> open the folder which include the cloned GitHub repository
---> open a Terminal to execute the Git commands below
+# --> open the folder which include the cloned GitHub repository
+# --> open a Terminal to execute the Git commands below
 
 # 4. Set the upstream repository (= official course repository)
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
