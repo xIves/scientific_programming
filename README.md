@@ -142,7 +142,7 @@ git clone git@github.com:YOUR-USERNAME/scientific_programming.git
 # --> open the folder with the cloned repository
 # --> open a Terminal for the Git commands below
 
-# 4. Provide the information about the upstream repository (= official course repository)
+# 4. Set the upstream repository (= official course repository)
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 # 5. View the current configured remote repositories
