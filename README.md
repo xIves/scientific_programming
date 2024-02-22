@@ -132,11 +132,11 @@ ssh -T git@github.com
 ```
 
 ## GitHub repository
-The course material is available on GitHub. To make the material available on your local computer and keep it updated, follow the steps below. Note that it is assumed that you have a GitHub account.
+The course material is available on GitHub. To make the material available on your local computer and keep it updated, follow the steps below. Note that it is assumed that you have Git installed and a GitHub account.
 
 **Fork/Clone a GitHub repository and keep the fork/clone up to date**
 ```bash
-# 1.) Navigate to:
+# 1.) To fork the GitHub repository, navigate to:
 
 https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
