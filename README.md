@@ -86,7 +86,7 @@ This module teaches the fundamentals of scientific programming. The focus is on 
 
 8. Install the Copilot extension in Visual Studio Code and apply for the [free] GitHub Global campus licence: https://education.github.com/students.
 
-9. Create a Kaggle account and get the kaggle API key    
+9. Create a Kaggle account and get the .kaggle.sjon file with your username and kaggle API key    
    * Windows: Create a [hidden] folder: C:\Users\YOUR-USERNAME\.kaggle. Inside this folder, create a file kaggle.json with your user name and API-key from Kaggle.
    * macOS: Create a [hidden] folder: /Users/your-username/.kaggle. Inside this folder, create a file kaggle.json with your user name and API-key from Kaggle.
 
