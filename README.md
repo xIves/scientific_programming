@@ -86,14 +86,14 @@ This module teaches the fundamentals of scientific programming. The focus is on 
 
 8. Install the Copilot extension in Visual Studio Code and apply for the [free] GitHub Global campus licence: https://education.github.com/students.
 
-9. Create a Kaggle account and get the .kaggle.sjon file with your username and kaggle API key    
+9. Create a Kaggle account and get the .kaggle.json file with your username and kaggle API key    
    * Windows: Create a [hidden] folder: C:\Users\YOUR-USERNAME\.kaggle. Inside this folder, create a file kaggle.json with your user name and API-key from Kaggle.
-   * macOS: Create a [hidden] folder: /Users/your-username/.kaggle. Inside this folder, create a file kaggle.json with your user name and API-key from Kaggle.
+   * macOS: Create a [hidden] folder: /Users/your-username/.kaggle. Inside this folder, create a file kaggle.json with your user name and API-key from Kaggle. 
 
    **Note that .kaggle is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the ssh-keys (use Google to find out how)**
+   **Also note that, on macOS, you have to give proper permissions to the file, since this is a hidden folder**
+   **See: https://adityashrm21.github.io/Setting-Up-Kaggle**
    
-   API key (for details see: https://www.youtube.com/watch?v=DgGFhQmfxHo).
-
 ## Settings in VS Code
 
 The following must settings must be made using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings.  
@@ -121,6 +121,8 @@ This will generate two files with SSH-Keys on your computer (public & privat key
 * Mac-Users look under: /Users/your-username/.ssh  
 
 **Note that .ssh is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the ssh-keys (use Google to find out how)**
+
+Permissions for .ssh folder on macOS: https://apple.stackexchange.com/questions/30670/how-do-i-gain-permission-to-generate-ssh-keys-on-my-mac
 
 On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the newly generated public key
 
