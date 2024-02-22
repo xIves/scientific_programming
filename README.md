@@ -16,9 +16,7 @@ This module teaches the fundamentals of scientific programming. The focus is on 
 
 ## Working directories
 
-**NOTICE:** Please note that the weekly material will continously provided and always be available shortly before the course starts. In the course, we will use the following folder structure. The material will continously provided on Moodle (slides) and GitHub:   
-
-https://github.com/mario-gellrich-zhaw/scientific_programming.git
+**NOTICE:** Please note that the weekly material will continously provided and always be available shortly before the course starts. In the course, we will use the following folder structure:
 
 ```plaintext
 |--scientific_programming
@@ -58,9 +56,9 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
     See: https://code.visualstudio.com/docs/getstarted/introvideos    
     Video Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Extensions    
 
-4. Create a new conda environment and install the required Python libraries    
-    In Visual Studio Code, go to your weekly working directory and open a new Terminal window    
-    In the Terminal window, type the following:    
+4. Create a new conda environment and install the required Python libraries      
+    In Visual Studio Code, go to your weekly working directory and open a new Terminal window      
+    In the Terminal, type the following:      
 
     ```bash
     conda info --envs                   # shows all available conda environments
@@ -68,13 +66,13 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
     conda activate spenv                # activates the new conda environment 'spenv'
     ```
 
-    Use pip to install the required libraries in your activated conda environmemt. For this, cd into your local folder containing the file 'requirements.txt' provided on GitHub. Make sure that the requirements.txt file is available in that local folder. Make also sure that the conda environment 'spenv' is activated. To install the required Python libraries listed in 'requirements.txt', type:    
+    Use pip to install the required libraries in your activated conda environment. For this, cd into your local folder containing the file 'requirements.txt' provided on GitHub. Make sure that the requirements.txt file is available in that local folder. Make also sure that the conda environment 'spenv' is activated. To install the required Python libraries listed in 'requirements.txt', type: 
 
     ```bash
     pip install -r requirements.txt
     ```
 
-5. Install Git and [if not yet done :-)] create a GitHub Account  
+5. Install Git and [if not yet done] create a GitHub Account  
     Git download-link: https://git-scm.com/downloads  
     GitHub Homepage: https://github.com  
     Video-Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Version Control  
@@ -91,18 +89,21 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 ## Settings in VS Code
 
-The following must be defined using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings.  
+The following must settings must be made using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings.  
 
 In VS Code Command Palette (CTRL+SHIFT+P):      
 * Python: Select Interpreter -> select your interpreter (name of the new conda environment 'spdev'
 * Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
 * Configure Display Language -> change to 'en' (English)
 
+For Windows users, I recommend defining the path to the conda executable under -> VS Code -> Settings (use CTRL+,) -> type conda -> define the path here
+* Under Windows, this path is typically: C:\Users\YOUR-USERNAME\Anaconda3\Scripts\conda.exe
+
 ## Generate SSH key pair
 
 An SSH key pair is used to establish a secure connection between your local computer and the remote server (like GitHub). It is highly recommended to use an SSH-key.  
 
-In VS Code -> Terminal type:  
+In VS Code -> oepn a Terminal, then type:  
 
 ```bash
 # Email must be the one provided on GitHub
@@ -112,7 +113,9 @@ This will generate two files with SSH-Keys on your computer (public & privat key
 Windows-Users look under: C:\Users\your-username\.ssh  
 Mac-Users look under: /Users/your-username/.ssh  
 
-On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the generated public key here  
+**Note that .ssh is a hidden folder, so on Windows and macOS you first make this folder visible to have access to the ssh-keys (use Google to find out how)**
+
+On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the newly generated public key
 
 See: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 
