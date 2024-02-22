@@ -45,24 +45,22 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 1. Install the latest Anaconda version  
     Download-Link:  https://www.anaconda.com/products/individual  
-    Under Windows: make sure that Anaconda is specified in your path  
-    e.g. on Windows: C:\Users\your_username\Anaconda3\Scripts  
+    Under Windows: make sure that Anaconda is specified in your path e.g. on Windows: C:\Users\your_username\Anaconda3\Scripts    
     See also: https://youtu.be/z84UIZy_qgE  
 	
-2. Install the latest version of Visual Studio Code  
-    Download-Link: https://code.visualstudio.com/download  
-    Video-Tutorials: Visual Studio Code -> Menu -> Help -> Video-Tutorials  
-    Make sure that Visual Studio Code is specified in your path under user variables  
-    e.g. on Windows: C:\Users\your_username\AppData\Local\Programs\Microsoft VS Code\bin  
+2. Install the latest version of Visual Studio Code    
+    Download-Link: https://code.visualstudio.com/download    
+    Video-Tutorials: Visual Studio Code -> Menu -> Help -> Video-Tutorials    
+    Make sure that Visual Studio Code is specified in your path under user variables e.g. on Windows: C:\Users\your_username\AppData\Local\Programs\Microsoft VS Code\bin    
     See also: https://youtu.be/z84UIZy_qgE  
 
-3. Install the 'Python' and 'Jupyter' extension in Visual Studio Code  
-    See: https://code.visualstudio.com/docs/getstarted/introvideos  
-    Video Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Extensions  
+3. Install the 'Python' and 'Jupyter' extension in Visual Studio Code    
+    See: https://code.visualstudio.com/docs/getstarted/introvideos    
+    Video Tutorial: Visual Studio Code -> Menu -> Help -> Video-Tutorials -> Extensions    
 
-4. Create a new conda environment and install the required Python libraries  
-    In Visual Studio Code, go to your weekly working directory and open a new Terminal window  
-    In the Terminal window, type the following:  
+4. Create a new conda environment and install the required Python libraries    
+    In Visual Studio Code, go to your weekly working directory and open a new Terminal window    
+    In the Terminal window, type the following:    
 
     ```bash
     conda info --envs                   # shows all available conda environments
@@ -70,11 +68,7 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
     conda activate spenv                # activates the new conda environment 'spenv'
     ```
 
-    Use pip to install the required libraries in your activated conda environmemt.   
-    For this, cd into your local folder containing the file 'requirements.txt' provided on GitHub.    
-    Make sure that the requirements.txt file is available in that local folder.     
-    Make also sure that the conda environment 'spenv' is activated.  
-    To install the required Python libraries listed in 'requirements.txt', type:    
+    Use pip to install the required libraries in your activated conda environmemt. For this, cd into your local folder containing the file 'requirements.txt' provided on GitHub. Make sure that the requirements.txt file is available in that local folder. Make also sure that the conda environment 'spenv' is activated. To install the required Python libraries listed in 'requirements.txt', type:    
 
     ```bash
     pip install -r requirements.txt
@@ -94,16 +88,13 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
    https://education.github.com/students
 
 9. Create a Kaggle account and get the kaggle API key  
-   On your local computer, create a hidden folder .kaggle  
-   e.g. on Windows: C:\Users\your_username\.kaggle  
-   Inside the .kaggle folder, create a file kaggle.json with your user name and API key  
-   (for details see: https://www.youtube.com/watch?v=DgGFhQmfxHo)  
+   On your local computer, create a hidden folder .kaggle, e.g. on Windows: C:\Users\your_username\.kaggle. Inside the .kaggle folder, create a file kaggle.json with your user name and API key (for details see: https://www.youtube.com/watch?v=DgGFhQmfxHo).
 
 ## Settings in VS Code
 
-The following must be defined using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings
+The following must be defined using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings  
 
-In VS Code Command Palette (CTRL+SHIFT+P):    
+In VS Code Command Palette (CTRL+SHIFT+P):      
 * Python: Select Interpreter -> select your interpreter (name of the new conda environment 'spdev'
 * Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
 * Configure Display Language -> change to 'en' (English)
