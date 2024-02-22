@@ -112,9 +112,11 @@ In VS Code -> open a Terminal, then type:
 # Email must be the one provided on GitHub
 ssh-keygen -t ed25519 -C "your-email@example.com"
 ```
-This will generate two files with SSH-Keys on your computer (public & privat keys)   
+This will generate two files with SSH-Keys on your computer (public & privat keys)  
+```plaintext 
 * Windows-Users look under: C:\Users\your-username\.ssh  
 * Mac-Users look under: /Users/your-username/.ssh  
+```
 
 **Note that .ssh is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the files with the ssh-keys (use Google to find out how)**
 
@@ -147,12 +149,17 @@ git clone git@github.com:YOUR-USERNAME/scientific_programming.git
 # 4. Set the upstream repository (= official course repository)
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
-# 5. View the current configured remote repositories
+# 5. Set the origin repository (= your forked repository with SSH URL)
+git remote add origin clone git@github.com:YOUR-USERNAME/scientific_programming.git
+
+# --> make sure that the public SSH key has been set on GitHub (see above)
+
+# 6. View the current configured remote repositories
 git remote -v
 
-# 6. Retrieve the latest changes from upstream repository
+# 7. Retrieve the latest changes from upstream repository
 git fetch upstream
 
-# 7. Updating your fork from upstream repository
+# 8. Updating your fork from upstream repository
 git pull upstream master
 ```
