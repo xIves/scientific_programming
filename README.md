@@ -12,13 +12,7 @@
 
 ## Module description
 
-This module teaches the fundamentals of scientific programming. The focus is on  
-scientific programming for data science applications. The programming language is  
-Python. Python as an object-oriented programming language has caught up with other  
-programming languages in terms of popularity and distribution in recent years and is thus  
-becoming increasingly important. Students learn the most important programming  
-paradigms. Due to the application-oriented nature of the module, students acquire the  
-necessary knowledge that allows them to apply Python in practice.
+This module teaches the fundamentals of scientific programming. The focus is on scientific programming for data science applications. The programming language is Python. Python as an object-oriented programming language has caught up with other programming languages in terms of popularity and distribution in recent years and is thus becoming increasingly important. Students learn the most important programming paradigms. Due to the application-oriented nature of the module, students acquire the necessary knowledge that allows them to apply Python in practice.
 
 ## Working directories
 
