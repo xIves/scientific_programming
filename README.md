@@ -149,8 +149,8 @@ git clone git@github.com:YOUR-USERNAME/scientific_programming.git
 # 4. Set the upstream repository (= official course repository)
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
-# 5. Set the origin repository (= your forked repository with the SSH URL)
-git remote add origin git@github.com:YOUR-USERNAME/scientific_programming.git
+# 5. Set the url of the origin (= your forked repository with the SSH URL)
+git remote set-url origin git@github.com:YOUR-USERNAME/scientific_programming.git
 
 # 6. View the current configured remote repositories
 git remote -v
