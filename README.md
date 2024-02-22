@@ -86,8 +86,8 @@ This module teaches the fundamentals of scientific programming. The focus is on 
 
 8. Install the Copilot extension in Visual Studio Code and apply for the [free] GitHub Global campus licence: https://education.github.com/students.
 
-9. Create a Kaggle account and get the kaggle.json file with your username and kaggle API key which we will use later in the course
-   
+9. Create a Kaggle account and get the kaggle.json file with your username and kaggle API key.
+
 ## Settings in VS Code
 
 The following must settings must be made using the VS Code Command Palette (CTRL+SHIFT+P) or VS Code settings.  
