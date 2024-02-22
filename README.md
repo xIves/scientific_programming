@@ -97,8 +97,8 @@ In VS Code Command Palette (CTRL+SHIFT+P):
 * Terminal: Select Default Profile -> under Window, change to 'Command Prompt'
 * Configure Display Language -> change to 'en' (English)
 
-For Windows users, I recommend defining the path to the conda executable under -> VS Code -> Settings (use CTRL+,) -> type conda -> define the path here
-* Under Windows, this path is typically: C:\Users\YOUR-USERNAME\Anaconda3\Scripts\conda.exe
+For Windows users, define the path to the conda executable: VS Code -> Settings -> type 'conda' -> include the path here
+* Under Windows, this is typically: C:\Users\YOUR-USERNAME\Anaconda3\Scripts\conda.exe
 
 ## Generate SSH key pair
 
