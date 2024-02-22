@@ -84,8 +84,7 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 7. Install the Docker extension in Visual Studio Code  
 
-8. Install the Copilot extension in Visual Studio Code and apply for the [free] GitHub Global campus licence:  
-   https://education.github.com/students
+8. Install the Copilot extension in Visual Studio Code and apply for the [free] GitHub Global campus licence: https://education.github.com/students.
 
 9. Create a Kaggle account and get the kaggle API key  
    On your local computer, create a hidden folder .kaggle, e.g. on Windows: C:\Users\your_username\.kaggle. Inside the .kaggle folder, create a file kaggle.json with your user name and API key (for details see: https://www.youtube.com/watch?v=DgGFhQmfxHo).
