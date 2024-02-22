@@ -16,10 +16,7 @@ This module teaches the fundamentals of scientific programming. The focus is on 
 
 ## Working directories
 
-**NOTICE:** Please note that the weekly material will always be available shortly before the course starts.
-
-In the course, we will use the following folder structure. The material will continously provided on
-Moodle (slides) and GitHub:   
+**NOTICE:** Please note that the weekly material will continously provided and always be available shortly before the course starts. In the course, we will use the following folder structure. The material will continously provided on Moodle (slides) and GitHub:   
 
 https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
