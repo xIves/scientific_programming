@@ -122,16 +122,19 @@ In VS Code, under Settings bottom right -> set the path to your conda environmen
 ## Generate SSH key pair
 
 An SSH key pair is used to establish a secure connection between your local machine and the   
-remote server (like GitHub). Note that an SSH key pair is <u>not</u> required if you use a forked   
-remote repository (like in this course).   
+remote server (like GitHub). It is highly recommended to use an SSH-key.
 
-In VS Code -> Terminal type:   
+In VS Code -> Terminal type:  
 
 ```bash
 # Email must be the one provided on GitHub
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your-email@example.com"
 ```
-On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> use the public key
+This will generate an SSH-Key on your computer   
+Windows-Users look under C:\Users\your-username\.ssh
+Mac-Users look under /Users/your-username/.ssh
+
+On GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the public key here
 
 See: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 
@@ -140,7 +143,7 @@ You can test your SSH connection with the following command:
 ssh -T git@github.com
 ```
 
-## Useful Git commands
+## Git commands
 
 **Fork/Clone a GitHub repository and keep the fork/clone up to date**
 ```bash
@@ -153,13 +156,11 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 # 2. Clone your fork (creates a copy of the repo on your local computer):
 git clone https://github.com/YOUR-USERNAME/YOUR-FORKED-REPO.git
 
-# 3. On your local computer, view the current configured remote repository
-# Open VS Code -> Terminal
-# cd into/cloned/fork-repository
-git remote -v
-
-# 4. Add a new remote repository to your local Git configuration
+# 3. Add a new remote repository (name of the upstream) to your local Git configuration
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
+
+# 4. On your local computer, view the current configured remote repositories
+git remote -v
 
 # 5. Retrieve the latest changes from upstream repository
 git fetch upstream
