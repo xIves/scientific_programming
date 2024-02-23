@@ -9,6 +9,8 @@
   - [Settings in VS Code](#settings-in-vs-code)
   - [Generate SSH key pair](#generate-ssh-key-pair)
   - [GitHub repository](#github-repository)
+  - [Solve merge conflicts](#solve-merge-conflicts)
+  - [Align origin with upstream](#align-origin-upstream)
 
 ## Module description
 
@@ -166,4 +168,24 @@ git fetch upstream
 
 # 8. Updating your fork from upstream repository
 git pull upstream master
+```
+
+## Solve merge conflicts
+
+Merge conflicts occur when two or more changes conflict with each other, meaning they affect the same lines in a file or when a file is deleted that another person is trying to modify. This usually happens when multiple people are working on the same project and they try to merge their changes into a common codebase.
+
+In VS Code, you can use the Merge Editor to solve merge conflics.
+
+The following video explains how this works: https://www.youtube.com/watch?v=KuB6hYoLozw
+
+## Align origin with upstream
+
+In case something goes completely wrong with your fork and local repository, you may want to align your fork (origin) and clone with the upstream repository. In this case, you can use the following Git commands:
+
+```bash
+git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+git push origin master
 ```
