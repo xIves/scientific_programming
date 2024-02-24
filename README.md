@@ -10,7 +10,7 @@
   - [Generate SSH key pair](#generate-ssh-key-pair)
   - [GitHub repository](#github-repository)
   - [Solve merge conflicts](#solve-merge-conflicts)
-  - [Align origin with upstream](#align-origin-with-upstream)
+  - [Sync origin with upstream](#sync-origin-with-upstream)
 
 ## Module description
 
@@ -178,7 +178,7 @@ In VS Code, you can use the Merge Editor to solve merge conflics.
 
 The following video explains how this works: https://www.youtube.com/watch?v=KuB6hYoLozw
 
-## Align origin with upstream
+## Sync origin with upstream
 
 In case something goes completely wrong with your fork and local repository, you may want to align your fork (origin) and clone with the upstream repository. In this case, you can use the following Git commands:
 
