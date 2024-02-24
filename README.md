@@ -172,7 +172,7 @@ git pull upstream master
 
 ## Solve merge conflicts
 
-Merge conflicts occur when two or more changes conflict with each other, meaning they affect the same lines in a file or when a file is deleted that another person is trying to modify. This usually happens when multiple people are working on the same project and they try to merge their changes into a common codebase.
+Later in the course you will modify the Python code provided on GitHub. When you modify Python code, merge conflicts may occur. Merge conflicts occur when two or more changes conflict with each other, meaning they affect the same lines in a file or when a file is deleted that another person is trying to modify. This usually happens when multiple people are working on the same project and they try to merge their changes into a common codebase.
 
 In VS Code, you can use the Merge Editor to solve merge conflics.
 
