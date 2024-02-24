@@ -180,7 +180,7 @@ The following video explains how this works: https://www.youtube.com/watch?v=KuB
 
 ## Sync origin with upstream
 
-In case something goes completely wrong with your fork and local repository, you may want to align your fork (origin) and clone with the upstream repository. In this case, you can use the following Git commands:
+To sync your fork (origin) and clone with the upstream repository. In this case, you can use the following Git commands:
 
 ```bash
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
