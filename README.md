@@ -10,7 +10,7 @@
   - [Generate SSH key pair](#generate-ssh-key-pair)
   - [GitHub repository](#github-repository)
   - [Solve merge conflicts](#solve-merge-conflicts)
-  - [Align origin with upstream](#align-origin-upstream)
+  - [Align origin with upstream](#align-origin-with-upstream)
 
 ## Module description
 
