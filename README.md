@@ -138,7 +138,7 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 # --> Click on the "Fork" button at the top right of the page.
 # --> This will generate a fork (copy) of the repository in your GitHub account.
 
-# 2. In VS Code -> Terminal clone your fork (creates a copy of the repository on your local computer):
+# 2. In VS Code -> Terminal, clone your fork (creates a copy of the repository on your local computer):
 git clone git@github.com:YOUR-USERNAME/scientific_programming.git
 
 # --> Note that this is the SSH URL requiring an ssh key, not the HTTPS URL!
