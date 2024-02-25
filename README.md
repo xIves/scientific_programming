@@ -124,7 +124,7 @@ This will generate two files with SSH-Keys on your computer (public & privat key
 
 If you have the public ssh-key, go to GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the newly generated public key
 
-See also: https://docs.github.com/de/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
+See also: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 
 ## GitHub repository
 The course material is available on GitHub. To make the material available on your local computer and keep it updated, follow the steps below. Note that it is assumed that you have Git installed and a GitHub account.
