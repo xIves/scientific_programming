@@ -131,7 +131,7 @@ The course material is available on GitHub. To make the material available on yo
 
 **Fork/Clone a GitHub repository and keep the fork/clone up to date**
 ```bash
-# 1.) To fork the GitHub repository, navigate to:
+# 1.) To fork the GitHub repository with the course material, navigate to:
 
 https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
