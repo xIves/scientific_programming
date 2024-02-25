@@ -138,12 +138,12 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 # --> Click on the "Fork" button at the top right of the page.
 # --> This will generate a fork (copy) of the repository in your GitHub account.
 
-# 2. On your local computer, use Git to clone your fork (creates a copy of the repository on your local computer):
+# 2. In VS Code -> Terminal clone your fork (creates a copy of the repository on your local computer):
 git clone git@github.com:YOUR-USERNAME/scientific_programming.git
 
 # --> Note that this is the SSH URL requiring an ssh key, not the HTTPS URL!
 
-# 3. In VS Code ... 
+# 3. In VS Code -> Terminal ...
 
 # --> open the folder which include the cloned GitHub repository
 # --> open a Terminal to execute the Git commands below
@@ -180,7 +180,7 @@ The following video explains how this works: https://www.youtube.com/watch?v=KuB
 
 ## Sync origin with upstream
 
-To sync your fork (origin) and clone with the upstream repository. In this case, you can use the following Git commands:
+To sync your fork (origin) and clone with the upstream repository you can use the following Git commands:
 
 ```bash
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
