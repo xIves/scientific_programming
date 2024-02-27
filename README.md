@@ -115,12 +115,25 @@ In VS Code -> open a Terminal, then type:
 ssh-keygen -t ed25519 -C "your-email@example.com"
 ```
 This will generate two files with SSH-Keys on your computer (public & privat keys)  
-```plaintext 
-* Windows-Users look under: C:\Users\your-username\.ssh  
-* Mac-Users look under: /Users/your-username/.ssh  
+```plaintext
+* Windows-Users look under: C:\Users\your-username\.ssh
+* Mac-Users look under: /Users/your-username/.ssh
 ```
 
-**Note that .ssh is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the files with the ssh-keys (use Google to find out how)**
+**Note that .ssh is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the files with the ssh-keys**
+
+```plaintext
+--> Windows-Users: File Explorer -> View > Show > Hidden items (or in germ.: Anzeigen -> Einblenden -> Ausgeblendete Elemente)
+
+--> Mac-Users, type (in Terminal):
+  defaults write com.apple.Finder AppleShowAllFiles true 
+  killall Finder
+
+  to hide again:
+
+  defaults write com.apple.Finder AppleShowAllFiles false 
+  killall Finder
+```
 
 If you have the public ssh-key, go to GitHub -> Account Icon top left -> Settings -> SSH and GPG keys -> New SSH key -> include the newly generated public key
 
