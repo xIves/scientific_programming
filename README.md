@@ -112,7 +112,7 @@ In VS Code -> open a Terminal, then type:
 
 ```bash
 # Email must be the one provided on GitHub
-ssh-keygen -t ed25519 -C "your-email@example.com"
+ssh-keygen -t ed25519 -C "your-email-on-github@example.com"
 ```
 This will generate two files with SSH-Keys on your computer (public & privat keys)  
 ```plaintext
