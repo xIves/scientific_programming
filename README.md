@@ -177,7 +177,7 @@ git remote set-url origin git@github.com:YOUR-USERNAME/scientific_programming.gi
 # 6. View the current configured remote repositories
 git remote -v
 
-# The output should look like ...
+# The output should look like (replace YOUR-USERNAME with your user name) ...
 # origin  git@github.com:YOUR-USERNAME/scientific_programming.git (fetch)
 # origin  git@github.com:YOUR-USERNAME/scientific_programming.git (push)
 # upstream        https://github.com/mario-gellrich-zhaw/scientific_programming.git (fetch)
