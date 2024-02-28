@@ -127,7 +127,7 @@ This will generate two files with SSH-Keys on your computer (public & privat key
 ```bash
 # To copy the ssh-key to clipboard
 Windows-Users (change your-username): 'type C:\Users\your-username\.ssh\id_ed25519.pub | clip'
-Mac-Users (change your-username): 'pbcopy < ~/.ssh/id_ed25519.pub'
+Mac-Users: 'pbcopy < ~/.ssh/id_ed25519.pub'
 ```
 
 **Note that .ssh is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the files with the ssh-keys**
