@@ -86,7 +86,8 @@ This module teaches the fundamentals of scientific programming. The focus is on 
 
 7. Install the Docker extension in Visual Studio Code  
 
-8. Install the Copilot extension in Visual Studio Code and apply for the [free] GitHub Global campus licence: https://education.github.com/students.
+8. Install the Copilot extension in Visual Studio Code and activate the [free] GitHub Global campus licence on:
+   - https://tat.zhaw.ch/github-map/index.jsp?nav=act
 
 9. Create a Kaggle account and get the kaggle.json file with your username and kaggle API key.
 
@@ -154,6 +155,8 @@ https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 # --> Click on the "Fork" button at the top right of the page.
 # --> This will generate a fork (copy) of the repository in your GitHub account.
+
+# For the following steps, make sure Git is installe on your computer 
 
 # 2. In VS Code -> Terminal, clone your fork (creates a copy of the repository on your local computer):
 git clone git@github.com:YOUR-USERNAME/scientific_programming.git
