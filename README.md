@@ -124,15 +124,13 @@ This will generate two files with SSH-Keys on your computer (public & privat key
 * Windows-Users look under: C:\Users\your-username\.ssh\id_ed25519.pub
 * Mac-Users look under: /Users/your-username/.ssh/id_ed25519.pub
 ```
-
-**Note that .ssh is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the files with the ssh-keys**
-
-**To copy the ssh-key to clipboard**
-```plaintext
+```bash
+# To copy the ssh-key to clipboard
 Windows-Users (in VS Code terminal) use the command (change 'your-username'): 'type C:\Users\your-username\.ssh\id_ed25519.pub | clip'
-
 Mac-Users (in VS Code terminal) use the command: 'pbcopy < ~/.ssh/id_ed25519.pub'
 ```
+
+**Note that .ssh is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the files with the ssh-keys**
 
 **To make the folder .shh visible**
 ```plaintext
