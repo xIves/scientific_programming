@@ -90,7 +90,7 @@ This module teaches the fundamentals of scientific programming. The focus is on 
 
 9. Create a Kaggle account and get the kaggle.json file with your username and kaggle API key.
 
-   - Create account on https://www.kaggle.com/settings  
+   - Create account on https://www.kaggle.com  
    - On https://www.kaggle.com/settings -> API -> Create New Token  
    - This will trigger the download of kaggle.json, a file containing your API credentials.  
 
