@@ -21,7 +21,6 @@ Note that this is an exercise that must be accomplished on your local computer!
 - GitHub account (https://github.com)
 - Visual Studio Code
 - Python extension for Visual Studio Code
-- GitHub extension for Visual Studio Code
 - Python with the conda environment 'spenv'
 
 # Make sure, that the path to your Git installation can be found on your System
@@ -43,10 +42,8 @@ Note that this is an exercise that must be accomplished on your local computer!
 
 --> this will create a hidden folder .git (.../myrepo/.git)
 --> in this folder, all neccessary files are created used for version control
---> to show hidden files in a folder under Windows, in the Terminal window type:
-    dir /a:h
 
-# In Visual Studio Code, inside a Terminal window, set your user name and email address:
+# In Visual Studio Code, inside a Terminal, set your user name and email address:
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 
@@ -57,7 +54,7 @@ git config --global user.email johndoe@example.com
 # In Visual Studio Code, in your folder 'myrepo'
 # --> add a new Python script 'histogram.py' with the following content:
 
-'''module to plot a histogram'''
+'''Python code to plot a histogram'''
 
 # Libraries
 import numpy as np
