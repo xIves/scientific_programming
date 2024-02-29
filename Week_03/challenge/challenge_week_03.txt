@@ -6,7 +6,7 @@ Tasks (use Visual Studio Code to run the Docker container):
     and linux/arm64 architecture.
  
 2.) Run the Docker container ...
-    docker run --rm -p 8888:8787 -e PASSWORD=rstudio rocker/rstudio:[tag_name_comes_here]
+    docker run --rm -p 8888:8787 -e PASSWORD=rstudio rocker/rstudio
     
 3.) Open RStudio in a web browser and run the following R-Code (copy/paste to the R-Console) ...
     (Link: http://127.0.0.1:8888 with username = rstudio and the password = rstudio)
