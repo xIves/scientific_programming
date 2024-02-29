@@ -1,5 +1,5 @@
-from pystrich.qrcode import QRCodeEncoder
 import time
+from pystrich.qrcode import QRCodeEncoder
 
 # Creates QR-Code based on text input
 encoder = QRCodeEncoder("Docker ist cool!")
