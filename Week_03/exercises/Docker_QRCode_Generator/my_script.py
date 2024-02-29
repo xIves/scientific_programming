@@ -7,6 +7,6 @@ encoder.save( "./QRCode_test.png" )
 
 print(encoder.get_ascii())
 
-# Prevents the container from stopping after run
+# Prevents the container from stopping
 while True:
     time.sleep(1)
