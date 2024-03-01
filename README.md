@@ -226,11 +226,11 @@ git remote -v
 # upstream        https://github.com/mario-gellrich-zhaw/scientific_programming.git (fetch)
 # upstream        https://github.com/mario-gellrich-zhaw/scientific_programming.git (push)
 
-# Now you can sync your fork
+# Now you can sync your origin (fork) with the upstream while avoiding merge conflics
 git fetch upstream
 git checkout master
-git merge upstream/master
-git push origin master
+git reset --hard upstream/master
+git push origin master --force
 ```
 
 
