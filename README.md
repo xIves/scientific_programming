@@ -225,13 +225,13 @@ git remote -v
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
 git remote set-url origin git@github.com:YOUR-USERNAME/scientific_programming.git
 
-# Sync your origin (fork) to exactly match the upstream (local changes will be overwritten)
+# Option (1): Sync your origin (fork) to exactly match the upstream (local changes will be overwritten)
 git fetch upstream
 git checkout master
 git reset --hard upstream/master
 git push origin master --force
 
-# Sync your fork with the upstream (local changes are preserved, merge conflicts must be solved)
+# Option (2): Sync your fork with the upstream (local changes are preserved, merge conflicts must be solved)
 git fetch upstream
 git checkout master
 git merge upstream/master
