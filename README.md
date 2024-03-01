@@ -231,7 +231,7 @@ git checkout master
 git reset --hard upstream/master
 git push origin master --force
 
-# Option (2): Sync your fork/clone with the upstream (your local changes are preserved but merge conflicts must be solved)
+# Option (2): Sync your fork/clone with the upstream (your local changes are preserved but merge conflicts may need to be resolved)
 git fetch upstream
 git checkout master
 git merge upstream/master
