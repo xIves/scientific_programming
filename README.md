@@ -213,8 +213,6 @@ To sync your fork (origin) and clone with the upstream repository you can use th
 
 ```bash
 # Make sure the upstream has been added and the origin's url is set
-
-# Check if the upstream is added and the origin's url is set
 git remote -v
 
 # The output should look like (replace YOUR-USERNAME with your user name) ...
