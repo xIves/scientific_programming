@@ -212,12 +212,9 @@ First look here:
 To sync your fork (origin) and clone with the upstream repository you can use the following Git commands:
 
 ```bash
-# Make sure the upstream has been added and the origin's url is set 
-# (replace YOUR-USERNAME with your user name)
-git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
-git remote set-url origin git@github.com:YOUR-USERNAME/scientific_programming.git
+# Make sure the upstream has been added and the origin's url is set
 
-# Check if this is all correctly set
+# Check if the upstream is added and the origin's url is set
 git remote -v
 
 # The output should look like (replace YOUR-USERNAME with your user name) ...
@@ -225,6 +222,10 @@ git remote -v
 # origin  git@github.com:YOUR-USERNAME/scientific_programming.git (push)
 # upstream        https://github.com/mario-gellrich-zhaw/scientific_programming.git (fetch)
 # upstream        https://github.com/mario-gellrich-zhaw/scientific_programming.git (push)
+
+# If this is not set correctly, type ...
+git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
+git remote set-url origin git@github.com:YOUR-USERNAME/scientific_programming.git
 
 # Sync your origin (fork) with the upstream - there may be merge conflicts which must be solved
 git fetch upstream
