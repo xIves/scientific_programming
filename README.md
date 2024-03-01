@@ -206,10 +206,26 @@ The following video explains how this works: https://www.youtube.com/watch?v=KuB
 
 ## Sync origin with upstream
 
+First look here:  
+1. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork  
+2. https://everythingdevops.dev/how-to-avoid-merge-commits-when-syncing-a-fork  
+
 To sync your fork (origin) and clone with the upstream repository you can use the following Git commands:
 
 ```bash
+# Make sure the upstream has been added and the origin's url is set
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
+
+# Check if this is all correctly set
+git remote -v
+
+# The output should look like (replace YOUR-USERNAME with your user name) ...
+# origin  git@github.com:YOUR-USERNAME/scientific_programming.git (fetch)
+# origin  git@github.com:YOUR-USERNAME/scientific_programming.git (push)
+# upstream        https://github.com/mario-gellrich-zhaw/scientific_programming.git (fetch)
+# upstream        https://github.com/mario-gellrich-zhaw/scientific_programming.git (push)
+
+# Now you can sync your fork
 git fetch upstream
 git checkout master
 git merge upstream/master
