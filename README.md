@@ -206,9 +206,6 @@ The following video explains how this works: https://www.youtube.com/watch?v=KuB
 
 ## Sync origin with upstream
 
-First look here:  
-1. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork  
-
 To sync your fork (origin) and clone with the upstream repository you can use the following Git commands:
 
 ```bash
@@ -231,7 +228,7 @@ git checkout master
 git reset --hard upstream/master
 git push origin master --force
 
-# Option (2): Sync your fork/clone with the upstream (your local changes are preserved but merge must be resolved)
+# Option (2): Sync your fork/clone with the upstream (your local changes are preserved but merge conflicts may have to be resolved)
 git fetch upstream
 git checkout master
 git merge upstream/master
