@@ -218,7 +218,7 @@ git remote -v
 # upstream        https://github.com/mario-gellrich-zhaw/scientific_programming.git (fetch)
 # upstream        https://github.com/mario-gellrich-zhaw/scientific_programming.git (push)
 
-# If this is not set correctly, type ...
+# If this is not set correctly, type (replace YOUR-USERNAME with your user name on GitHub) ...
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
 git remote set-url origin git@github.com:YOUR-USERNAME/scientific_programming.git
 
