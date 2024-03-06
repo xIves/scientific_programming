@@ -37,8 +37,8 @@ dist/
 # Single files
 # solution_challenge_week_01.ipynb
 # solution_challenge_week_02.ipynb
-graphics.R
-rstudio-export.zip
+# graphics.R
+# rstudio-export.zip
 solution_challenge_week_04.ipynb
 solution_challenge_week_05.ipynb
 solution_challenge_week_06.ipynb
