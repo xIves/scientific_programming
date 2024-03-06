@@ -119,7 +119,7 @@ In VS Code -> open a Terminal, then type:
 # Email must be the one provided on GitHub
 ssh-keygen -t ed25519 -C "your-email-on-github@example.com"
 ```
-This will generate two files with SSH-Keys on your computer (public & privat keys)  
+This will generate two files with SSH-Keys on your computer (public & privat key)  
 ```plaintext
 * Windows-Users look under: C:\Users\your-username\.ssh\id_ed25519.pub
 * Mac-Users look under: /Users/your-username/.ssh/id_ed25519.pub
