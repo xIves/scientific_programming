@@ -140,7 +140,7 @@ Mac-Users: 'pbcopy < ~/.ssh/id_ed25519.pub'
   defaults write com.apple.Finder AppleShowAllFiles true 
   killall Finder
 
-  to hide again:
+  to hide again, type:
 
   defaults write com.apple.Finder AppleShowAllFiles false 
   killall Finder
