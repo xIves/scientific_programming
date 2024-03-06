@@ -132,7 +132,7 @@ Mac-Users: 'pbcopy < ~/.ssh/id_ed25519.pub'
 
 **Note that .ssh is a hidden folder, so on Windows and macOS you first must make this folder visible to have access to the files with the ssh-keys**
 
-**To make the folder .shh visible**
+**To make the folder .ssh visible**
 ```plaintext
 --> Windows-Users: File Explorer -> View > Show > Hidden items (or in germ.: Anzeigen -> Einblenden -> Ausgeblendete Elemente)
 
