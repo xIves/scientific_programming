@@ -9,8 +9,8 @@
   - [Settings in VS Code](#settings-in-vs-code)
   - [Generate SSH key pair](#generate-ssh-key-pair)
   - [GitHub repository](#github-repository)
-  - [Solve merge conflicts](#solve-merge-conflicts)
   - [Sync origin with upstream](#sync-origin-with-upstream)
+  - [Solve merge conflicts](#solve-merge-conflicts)
 
 ## Module description
 
@@ -196,14 +196,6 @@ git fetch upstream
 git pull upstream master
 ```
 
-## Solve merge conflicts
-
-Later in the course you will modify the Python code provided on GitHub. When you modify Python code, merge conflicts may occur which is when two or more changes conflict with each other. This usually happens when multiple people are working on the same project and they try to merge their changes into a common codebase.
-
-In VS Code, you can use the Merge Editor to solve merge conflics.
-
-The following video explains how this works: https://www.youtube.com/watch?v=KuB6hYoLozw
-
 ## Sync origin with upstream
 
 To sync your fork (origin) and clone with the upstream repository you can use the following Git commands:
@@ -234,3 +226,11 @@ git checkout master
 git merge upstream/master
 git push origin master
 ```
+
+## Solve merge conflicts
+
+Later in the course you will modify the Python code provided on GitHub. When you modify Python code, merge conflicts may occur which is when two or more changes conflict with each other. This usually happens when multiple people are working on the same project and they try to merge their changes into a common codebase.
+
+In VS Code, you can use the Merge Editor to solve merge conflics.
+
+The following video explains how this works: https://www.youtube.com/watch?v=KuB6hYoLozw
