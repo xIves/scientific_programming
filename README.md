@@ -178,7 +178,7 @@ git clone git@github.com:YOUR-USERNAME/scientific_programming.git
 git config --global user.name "FIRST_NAME LAST_NAME"
 git config --global user.email "your-email-on-github@example.com"
 
-# 5. Set the upstream repository (= official course repository)
+# 5. Add the upstream repository (= official course repository)
 git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
 # 6. Set the url of the origin (= your forked repository with the SSH URL)
