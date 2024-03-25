@@ -26,4 +26,20 @@ Tasks (use Visual Studio Code to run the Docker container):
 4.) Use R, to create a 2x2 multiplot with a histogram, a boxplot, a barchart and a piechart
     You can use arbitrary data, for examples see: https://www.tutorialspoint.com/r/
 
+     # Create data for the graph.
+ v <-  c(9,13,21,8,36,22,12,41,31,33,19)
+ 
+ # Create the histogram.
+ hist(v,xlab = "Weight",col = "yellow",border = "blue")
+ boxplot(mpg ~ cyl, data = mtcars, xlab = "Number of Cylinders", ylab = "Miles Per Gallon", main = "Mileage Data")
+ 
+ barplot(v)
+ 
+ # Create data for the graph.
+ x <- c(21, 62, 10, 53)
+ labels <- c("London", "New York", "Singapore", "Mumbai")
+ 
+ # Plot the chart.
+ pie(x,labels)
+
 5.) Save the resulting plots as separate .png Files on you local computer
