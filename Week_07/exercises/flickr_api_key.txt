@@ -1,5 +1,5 @@
-Schlüssel:
+Public Key:
 XXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-Geheimer Schlüssel:
+Secret key:
 XXXXXXXXXXXXXXXXXXXXXXXXXXX
