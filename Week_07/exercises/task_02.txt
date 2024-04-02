@@ -7,4 +7,4 @@
 2.) Define own keywords to search for photos and run the Jupyter notebook to
     get information about the photos and plot the photos.
 
-3.) Extent the Jupyter notebook to download 20 photos of dogs.
+3.) Extent the Jupyter notebook to download photos of dogs.
