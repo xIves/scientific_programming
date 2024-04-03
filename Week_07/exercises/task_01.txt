@@ -15,7 +15,7 @@
     Hint: The function must first check the file extensions of files in your
     specified directory. If it is a .json file then .read_json() must be used 
     otherwise .read_csv() must be used. Use the library 'fnmatch' to check for 
-    file extension patterns. For solution see below:
+    file extension patterns. For one possible solution see Python code below:
 
 import os
 import pandas as pd
