@@ -1,5 +1,5 @@
-Public Key:
-9b62ddd0ac6b1c202d808d931f333319
+Schlüssel:
+00426046787beb691edca2f7445cd8a6
 
-Secret key:
-21c16ec8ff2de242
+Geheimer Schlüssel:
+f390943f489bac2a
