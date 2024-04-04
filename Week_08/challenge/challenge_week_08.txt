@@ -24,4 +24,4 @@ import matplotlib.pyplot as plt
 - write the RGB-color values to separate columns in a pandas data frame 
 
 2.) Analyze at different photos by using the ImageAnalyzer class. You 
-   can find such photos by using Google photo search.
+   can find such photos by using Google photo search or on Flickr.
