@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 1.) Create an ImageAnalyzer class which is able to:
 - read an image (e.g. a photo in .jpg format)
-- plot the pimage
+- plot the image
 - get the image size (numer pf pixels in rows and columns)
 - get values of single pixels
 - plot a gray-scale version of the image
