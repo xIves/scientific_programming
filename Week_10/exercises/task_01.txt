@@ -1,0 +1,48 @@
+#----------------------------------------------------------------------
+# Advanced programming techniques in Python
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'advanced_programming_techniques_Python.ipynb'
+    step by step. You should understand the following functions & concepts:
+    - lambda
+    - map
+    - filter
+    - reduce
+    - apply
+    - regular expressions (regex)
+
+2.) Create a Jupyter notebook. Download the Trip Advisor Hotel Reviews data set 
+    from Kaggle: https://www.kaggle.com/datasets/andrewmvd/trip-advisor-hotel-reviews
+    and read the data to a pandas data frame (see code below).
+
+3.) Use .apply(), lambda and regex to extract specific terms from the Hotel Reviews. 
+    Find additional patterns to improve the relationship (correlation) between the 
+    variables 'Rating' and 'Length'. Add a scatterplot to show this relationship
+    graphically.
+
+    import re
+    import pandas as pd
+    from kaggle.api.kaggle_api_extended import KaggleApi
+
+    # Initialize API
+    api = KaggleApi()
+    api.authenticate()
+
+    # Download file
+    api.dataset_download_file('andrewmvd/trip-advisor-hotel-reviews',
+                            'tripadvisor_hotel_reviews.csv')
+
+    # Read data to pandas data frame
+    df = pd.read_csv('tripadvisor_hotel_reviews.csv.zip')
+    df
+
+    # Extract values using the lambda function in combination with regex
+    pattern = "(great|excellent|good|beautiful)"
+    df['Tokens'] = df['Review'].apply(lambda x: re.findall(pattern, x))
+    df['Length'] = df['Tokens'].apply(lambda x: len(x))
+
+    # Correlation of Rating with Length
+    print(df[['Rating', 'Length']].corr())
+
+    # Show data
+    df

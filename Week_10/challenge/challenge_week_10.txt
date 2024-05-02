@@ -1,0 +1,22 @@
+#-------------------------------------------------------------------
+# Scientific Programming Challenge Week (10)
+#-------------------------------------------------------------------
+
+Background:
+You work for a company that specializes in crypto-currency trading using 
+trading bots. You are asked to implement an exploratory data analysis (EDA)
+of crypto-currency prices into the process which should include:
+
+- a download of selected crypto-currency prices using the coingecko Web API
+- at least the following rypto-currencies: bitcoin, ethereum, dogecoin, near
+- a bar chart showing the prices of different crypto-currencies
+- a histogram (price of a single crypto-currency over time)
+- a boxplot (price of a single crypto-currency over time)
+- a scatterplot (relationship between two different crypto-currency prices)
+- a scatterplot matrix (relationship between > 2 crypto-currency prices)
+- a heatmap with correlation matrix of crypto-currency prices in the data
+
+Answer the question: Which crypto-currency prices are higher correlated than others?
+
+Hint: To get data, you can use:
+from pycoingecko import CoinGeckoAPI
